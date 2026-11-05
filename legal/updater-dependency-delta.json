@@ -1,0 +1,2065 @@
+{
+  "scope": "Updater additions only; no broad audit or final legal clearance",
+  "records": [
+    {
+      "ecosystem": "cargo",
+      "name": "getrandom",
+      "version": "0.2.17",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rust-random/getrandom",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "b625985d852600a3eeb68556811e59e7c9a6a098"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "ff2abc00be7fca6ebc474524697ae276ad847ad0a6b3faa4bcb027e9a4614ad0",
+          "lock_checksum": "ff2abc00be7fca6ebc474524697ae276ad847ad0a6b3faa4bcb027e9a4614ad0"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/getrandom-0.2.17/LICENSE-APACHE",
+          "sha256": "aaff376532ea30a0cd5330b9502ad4a4c8bf769c539c87ffe78819d188a18ebf",
+          "bytes": 10849,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/getrandom-0.2.17/LICENSE-MIT",
+          "sha256": "42fa16951ce7f24b5a467a40e5b449a1d41e662f97ca779864f053f39e097737",
+          "bytes": 1130,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hyper-rustls",
+      "version": "0.27.10",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "Apache-2.0 OR ISC OR MIT",
+      "repository": "https://github.com/rustls/hyper-rustls",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "ce45b6b0dfdf238f9058b89feb1e3b8eaebbc5b0"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "dfa8e654703247911e29c23fbeaa261834bd9bb74efba2f9acddc37bfb127f53",
+          "lock_checksum": "dfa8e654703247911e29c23fbeaa261834bd9bb74efba2f9acddc37bfb127f53"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/hyper-rustls-0.27.10/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-ISC",
+          "file": "legal/upstream/updater/hyper-rustls-0.27.10/LICENSE-ISC",
+          "sha256": "7cfafc877eccc46c0e346ccbaa5c51bb6b894d2b818e617d970211e232785ad4",
+          "bytes": 775,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/hyper-rustls-0.27.10/LICENSE-MIT",
+          "sha256": "709e3175b4212f7b13aa93971c9f62ff8c69ec45ad8c6532a7e0c41d7a7d6f8c",
+          "bytes": 1082,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jni",
+      "version": "0.22.4",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "jni-macros",
+      "version": "0.22.4",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "minisign-verify",
+      "version": "0.3.0",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "MIT",
+      "repository": "https://github.com/jedisct1/rust-minisign-verify",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "96b921399b87b29e29cb5dc948b99b465ca58489"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "871285dc19d8d0ebe0eef3d0e99a205f2a71363b122632cbbfa4a6c370a960ce",
+          "lock_checksum": "871285dc19d8d0ebe0eef3d0e99a205f2a71363b122632cbbfa4a6c370a960ce"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/minisign-verify-0.3.0/LICENSE",
+          "sha256": "42c8695fbc468866d9756be99af0ba4e37d733f8daa3c8827c8d80b8bec1b2f9",
+          "bytes": 2312,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "objc2-osa-kit",
+      "version": "0.3.2",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "openssl-probe",
+      "version": "0.2.2",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "osakit",
+      "version": "0.3.1",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "ring",
+      "version": "0.17.14",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "Apache-2.0 AND ISC",
+      "repository": "https://github.com/briansmith/ring",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "2723abbca9e83347d82b056d5b239c6604f786df",
+            "dirty": true
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "a4689e6c2294d81e88dc6261c768b63bc4fcdb852be6d1352498b114f61383b7",
+          "lock_checksum": "a4689e6c2294d81e88dc6261c768b63bc4fcdb852be6d1352498b114f61383b7"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/ring-0.17.14/LICENSE",
+          "sha256": "b3d734001a94efff3579978d953391aa7115f877657d25eb54037a43875d078a",
+          "bytes": 499,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-BoringSSL",
+          "file": "legal/upstream/updater/ring-0.17.14/LICENSE-BoringSSL",
+          "sha256": "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d",
+          "bytes": 14870,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-other-bits",
+          "file": "legal/upstream/updater/ring-0.17.14/LICENSE-other-bits",
+          "sha256": "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f",
+          "bytes": 731,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "src/polyfill/once_cell/LICENSE-APACHE",
+          "file": "legal/upstream/updater/ring-0.17.14/src/polyfill/once_cell/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "src/polyfill/once_cell/LICENSE-MIT",
+          "file": "legal/upstream/updater/ring-0.17.14/src/polyfill/once_cell/LICENSE-MIT",
+          "sha256": "6ee2ed6c77710de911761acd5fc1ad1da00f476beb1a7ef27e78c2d1858deafc",
+          "bytes": 1022,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "third_party/fiat/LICENSE",
+          "file": "legal/upstream/updater/ring-0.17.14/third_party/fiat/LICENSE",
+          "sha256": "9eacbcb81be660840c714a560a9d65ba07913db98dd4baf969f78dd499fdd60f",
+          "bytes": 638,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustls",
+      "version": "0.23.46",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "Apache-2.0 OR ISC OR MIT",
+      "repository": "https://github.com/rustls/rustls",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "f04804fa13341a9b1dc02b5d1dd8a746f2c4b7fb"
+          },
+          "path_in_vcs": "rustls"
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "48e13bd8c0e9365c43cfa5c9e8f9ad49d3c8444926c9aac819e0e4dc503c8fdf",
+          "lock_checksum": "48e13bd8c0e9365c43cfa5c9e8f9ad49d3c8444926c9aac819e0e4dc503c8fdf"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/rustls-0.23.46/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-ISC",
+          "file": "legal/upstream/updater/rustls-0.23.46/LICENSE-ISC",
+          "sha256": "7cfafc877eccc46c0e346ccbaa5c51bb6b894d2b818e617d970211e232785ad4",
+          "bytes": 775,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/rustls-0.23.46/LICENSE-MIT",
+          "sha256": "709e3175b4212f7b13aa93971c9f62ff8c69ec45ad8c6532a7e0c41d7a7d6f8c",
+          "bytes": 1082,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustls-native-certs",
+      "version": "0.8.5",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustls-pki-types",
+      "version": "1.15.1",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustls/pki-types",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "e29ad15465126acc089b39611bcec85e27ce0817"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "2f4925028c7eb5d1fcdaf196971378ed9d2c1c4efc7dc5d011256f76c99c0a96",
+          "lock_checksum": "2f4925028c7eb5d1fcdaf196971378ed9d2c1c4efc7dc5d011256f76c99c0a96"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/rustls-pki-types-1.15.1/LICENSE-APACHE",
+          "sha256": "45fd05c4865e7c350b98ad7ac50e1b15462d49af4a91e9b0c9dd933dc9a69742",
+          "bytes": 10835,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/rustls-pki-types-1.15.1/LICENSE-MIT",
+          "sha256": "9117d922e667125508dde62b02c1f57ed22f5ad21eb536aa2e2d99e1c796e639",
+          "bytes": 1080,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustls-platform-verifier",
+      "version": "0.7.1",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustls/rustls-platform-verifier",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "252e25161a91af476cbea620e29d277592d27ec7"
+          },
+          "path_in_vcs": "rustls-platform-verifier"
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "1167586491e2b18b8bfbb293e8180ec17c201c4f076d7cb3070ca964e7598f98",
+          "lock_checksum": "1167586491e2b18b8bfbb293e8180ec17c201c4f076d7cb3070ca964e7598f98"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/rustls-platform-verifier-0.7.1/LICENSE-APACHE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/rustls-platform-verifier-0.7.1/LICENSE-MIT",
+          "sha256": "1c7cf76689c837a68ed8d704994e52a0f2940c087958f860d17f3186afbdcc0c",
+          "bytes": 1066,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustls-platform-verifier-android",
+      "version": "0.2.0",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "rustls-webpki",
+      "version": "0.103.16",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "ISC",
+      "repository": "https://github.com/rustls/webpki",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "8ecdcc76f56b68fda67a6adf7976f5eed5006a4c"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "4443b1b6d39d7c663139942cc4558262562d2c84123bb6282ef177009ca8b281",
+          "lock_checksum": "4443b1b6d39d7c663139942cc4558262562d2c84123bb6282ef177009ca8b281"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/rustls-webpki-0.103.16/LICENSE",
+          "sha256": "5b698ca13897be3afdb7174256fa1574f8c6892b8bea1a66dd6469d3fe27885a",
+          "bytes": 916,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "schannel",
+      "version": "0.1.30",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "security-framework",
+      "version": "3.7.0",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "security-framework-sys",
+      "version": "2.17.0",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "simd_cesu8",
+      "version": "1.2.0",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "simdutf8",
+      "version": "0.1.5",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "subtle",
+      "version": "2.6.1",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "BSD-3-Clause",
+      "repository": "https://github.com/dalek-cryptography/subtle",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "5457b5448b021d1da101ababbb854e6657233943"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292",
+          "lock_checksum": "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/subtle-2.6.1/LICENSE",
+          "sha256": "d1fc1bc0d155df60b2e7705b6b2ae02a05c96f948e1cec6e2fb86360b09f346b",
+          "bytes": 1582,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tauri-plugin-updater",
+      "version": "2.14.1",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "Apache-2.0 OR MIT",
+      "repository": "https://github.com/tauri-apps/plugins-workspace",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "128190689dbe59b59d344e01bf07b00862aa3791"
+          },
+          "path_in_vcs": "plugins/updater"
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "d957abbcb3f9f6c76d22a3a0f012f30880640d0bccb5634d2b12a9937e4c872b",
+          "lock_checksum": "d957abbcb3f9f6c76d22a3a0f012f30880640d0bccb5634d2b12a9937e4c872b"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE.spdx",
+          "file": "legal/upstream/updater/tauri-plugin-updater-2.14.1/LICENSE.spdx",
+          "sha256": "eb8a6c84630461b352badcab1dbe5d0168c56d377358b2b8c86b51003272d5ef",
+          "bytes": 888,
+          "full_text_candidate": false,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE_APACHE-2.0",
+          "file": "legal/upstream/updater/tauri-plugin-updater-2.14.1/LICENSE_APACHE-2.0",
+          "sha256": "0cec06e0e55fbc3dc5cee4fca9b607f66cb8f4e4dbcf3b3c013594dd156732e9",
+          "bytes": 10173,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE_MIT",
+          "file": "legal/upstream/updater/tauri-plugin-updater-2.14.1/LICENSE_MIT",
+          "sha256": "89ff9689dcf9dd53968785d05a26f7898bb169dbfcada8d032b3e68cf0d55607",
+          "bytes": 1089,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tokio-rustls",
+      "version": "0.26.6",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "repository": "https://github.com/rustls/tokio-rustls",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "8aebb7c9556ea8024c1b974b84a4a6f2e306889a"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "c9cc2678c2cdd569ef8215e2afd7954ada2ae20b4fdd2c5fe6139a3b02d105db",
+          "lock_checksum": "c9cc2678c2cdd569ef8215e2afd7954ada2ae20b4fdd2c5fe6139a3b02d105db"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/tokio-rustls-0.26.6/LICENSE-APACHE",
+          "sha256": "cc117d90b498b32b11a886f279b359da16a73c3b01efbb2f5cc004b20262334e",
+          "bytes": 10832,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/tokio-rustls-0.26.6/LICENSE-MIT",
+          "sha256": "e20fa2b8e0a2565f24a792b94b4bf4b6c2b9d36f781d8a9516e218a036e6677a",
+          "bytes": 1056,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "untrusted",
+      "version": "0.9.0",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "updater Windows dependency",
+      "declared_license": "ISC",
+      "repository": "https://github.com/briansmith/untrusted",
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {
+          "git": {
+            "sha1": "89c8b8415f692d3803d183fc5fbf9ec08a6adcf4"
+          }
+        },
+        "registry_archive": {
+          "available": true,
+          "matches_lock": true,
+          "sha256": "8ecb6da28b8a351d773b68d5825ac39017e680750f980f3a1a85cd8dd28a47c1",
+          "lock_checksum": "8ecb6da28b8a351d773b68d5825ac39017e680750f980f3a1a85cd8dd28a47c1"
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE.txt",
+          "file": "legal/upstream/updater/untrusted-0.9.0/LICENSE.txt",
+          "sha256": "7abd9b6960dcf7d4d0a48606a5b71bfe37d472db68d70637f3a58a56785f1621",
+          "bytes": 769,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED evidence only: exact registry notice bytes preserved; not new legal clearance."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "webpki-root-certs",
+      "version": "1.0.11",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "windows-sys",
+      "version": "0.52.0",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "xattr",
+      "version": "1.7.0",
+      "locks": [
+        "src-tauri/Cargo.lock"
+      ],
+      "windows_uses": {},
+      "distribution": "not selected for current Windows graph",
+      "declared_license": null,
+      "repository": null,
+      "evidence": {
+        "source": "exact locked source archive / selected Cargo metadata",
+        "vcs": {},
+        "registry_archive": {}
+      },
+      "notices": [],
+      "obligations": "Not conveyed in this Windows target; obtain exact terms if selecting this platform package.",
+      "compatibility_review": "PREPARED: unselected platform lock entry only; not distributed on Windows."
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "atomic-waker",
+      "version": "1.1.2",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "Apache-2.0 OR MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/smol-rs/atomic-waker",
+      "evidence": {
+        "manifest_sha256": "0bcc14ea808935bf632dfaa6746dce30e4fdfc0902e1320df8ab36763dc76250",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "9969a29ccd1fe298e2df7346849c0095ba303a64"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "1505bd5d3d116872e7271a6d4e16d81d0c8570876c8de68093a09ac269d8aac0",
+          "available": true,
+          "sha256": "1505bd5d3d116872e7271a6d4e16d81d0c8570876c8de68093a09ac269d8aac0",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/atomic-waker-1.1.2/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/atomic-waker-1.1.2/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-THIRD-PARTY",
+          "file": "legal/upstream/updater/atomic-waker-1.1.2/LICENSE-THIRD-PARTY",
+          "sha256": "6226d0632e2e1a80c23597e964da9812ae193c535fe058154afb034e94167aa5",
+          "bytes": 1849,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-channel",
+      "version": "0.3.34",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "evidence": {
+        "manifest_sha256": "df27c9b8846e1c63057ae3b753328aa37c8c6a8b79c02beb12b6e6e375e780ee",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c"
+          },
+          "path_in_vcs": "futures-channel"
+        },
+        "registry_archive": {
+          "lock_checksum": "b1f9e3d69d39e4862ffed03ed071a76f9a13ba1d9109d355b0f0aa6b15e393c4",
+          "available": true,
+          "sha256": "b1f9e3d69d39e4862ffed03ed071a76f9a13ba1d9109d355b0f0aa6b15e393c4",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/futures-channel-0.3.34/LICENSE-APACHE",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+          "bytes": 10874,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/futures-channel-0.3.34/LICENSE-MIT",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+          "bytes": 1094,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-core",
+      "version": "0.3.34",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "evidence": {
+        "manifest_sha256": "fa88cec6d0c527df4ff51ad034de09d3c552f6174ab8e4aa83cfaeacc36c4c7d",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c"
+          },
+          "path_in_vcs": "futures-core"
+        },
+        "registry_archive": {
+          "lock_checksum": "92d699e522242e69e3003b94ecc1f960f3a5e015aa7c5d7486e65ad01dd94f5e",
+          "available": true,
+          "sha256": "92d699e522242e69e3003b94ecc1f960f3a5e015aa7c5d7486e65ad01dd94f5e",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/futures-core-0.3.34/LICENSE-APACHE",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+          "bytes": 10874,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/futures-core-0.3.34/LICENSE-MIT",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+          "bytes": 1094,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-io",
+      "version": "0.3.34",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "evidence": {
+        "manifest_sha256": "c42a07cdf88ac680f96f75df035d3193a449eec157d75b1c9e9024a05848654b",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c"
+          },
+          "path_in_vcs": "futures-io"
+        },
+        "registry_archive": {
+          "lock_checksum": "53c0fa8157de1303bfffdaa1cc2a673bfffb60102f76b0ef4441659124373fed",
+          "available": true,
+          "sha256": "53c0fa8157de1303bfffdaa1cc2a673bfffb60102f76b0ef4441659124373fed",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/futures-io-0.3.34/LICENSE-APACHE",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+          "bytes": 10874,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/futures-io-0.3.34/LICENSE-MIT",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+          "bytes": 1094,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-macro",
+      "version": "0.3.34",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "build"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "evidence": {
+        "manifest_sha256": "fdb87996803b9b64594a0849d2b396f2581d79451adb8f1b91ed56da8c9421c3",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c"
+          },
+          "path_in_vcs": "futures-macro"
+        },
+        "registry_archive": {
+          "lock_checksum": "9fb9654ba8355388abeb8dcb4fc62f511300867002afc858860463bdd9fe0c44",
+          "available": true,
+          "sha256": "9fb9654ba8355388abeb8dcb4fc62f511300867002afc858860463bdd9fe0c44",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/futures-macro-0.3.34/LICENSE-APACHE",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+          "bytes": 10874,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/futures-macro-0.3.34/LICENSE-MIT",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+          "bytes": 1094,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-sink",
+      "version": "0.3.34",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "evidence": {
+        "manifest_sha256": "8f691b72a0ca88fbb82e626de2df8ae2d71a1c384da2dff9b47424d955ab258e",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c"
+          },
+          "path_in_vcs": "futures-sink"
+        },
+        "registry_archive": {
+          "lock_checksum": "1944426bf7d03f1d14f708785e4b33efd750b36d48a157b836b3efc15ede8e1d",
+          "available": true,
+          "sha256": "1944426bf7d03f1d14f708785e4b33efd750b36d48a157b836b3efc15ede8e1d",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/futures-sink-0.3.34/LICENSE-APACHE",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+          "bytes": 10874,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/futures-sink-0.3.34/LICENSE-MIT",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+          "bytes": 1094,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-task",
+      "version": "0.3.34",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "evidence": {
+        "manifest_sha256": "7d9159735fa6a29df379bfff623f6cece41584334ca022ebd34ef56152637fa8",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c"
+          },
+          "path_in_vcs": "futures-task"
+        },
+        "registry_archive": {
+          "lock_checksum": "cd417de3d1d015fc3bfd2b1ea46dfc7bab72ef86f1cc7cc9c78e728b34a6d1fd",
+          "available": true,
+          "sha256": "cd417de3d1d015fc3bfd2b1ea46dfc7bab72ef86f1cc7cc9c78e728b34a6d1fd",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/futures-task-0.3.34/LICENSE-APACHE",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+          "bytes": 10874,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/futures-task-0.3.34/LICENSE-MIT",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+          "bytes": 1094,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "futures-util",
+      "version": "0.3.34",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/rust-lang/futures-rs",
+      "evidence": {
+        "manifest_sha256": "7e672d306e8de25359ed9c452e7cdc115121dc7e985008af31c85a36b70ac835",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c"
+          },
+          "path_in_vcs": "futures-util"
+        },
+        "registry_archive": {
+          "lock_checksum": "0d50a92467f8ba5dd6e3ee5d4bd04d73ab2e4e1c44474a0674821dfce14b79bc",
+          "available": true,
+          "sha256": "0d50a92467f8ba5dd6e3ee5d4bd04d73ab2e4e1c44474a0674821dfce14b79bc",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/futures-util-0.3.34/LICENSE-APACHE",
+          "sha256": "275c491d6d1160553c32fd6127061d7f9606c3ea25abfad6ca3f6ed088785427",
+          "bytes": 10874,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/futures-util-0.3.34/LICENSE-MIT",
+          "sha256": "6652c868f35dfe5e8ef636810a4e576b9d663f3a17fb0f5613ad73583e1b88fd",
+          "bytes": 1094,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "http-body",
+      "version": "1.1.0",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/hyperium/http-body",
+      "evidence": {
+        "manifest_sha256": "87911167224d2c0bd1d92650330e39ff1bada6ebd0ab7add8a4e10309eb8d0f1",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "2fb78de9c875c364b7eb1a1a117acc3b83ffb13a",
+            "dirty": true
+          },
+          "path_in_vcs": "http-body"
+        },
+        "registry_archive": {
+          "lock_checksum": "ca2a8f2913ee65f60facd6a5905613afaa448497a0230cc41ce022d93290bc2c",
+          "available": true,
+          "sha256": "ca2a8f2913ee65f60facd6a5905613afaa448497a0230cc41ce022d93290bc2c",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/http-body-1.1.0/LICENSE",
+          "sha256": "248378d0a3383c173fb925f17141b88e71580b3ba17ddc6ac3d2a344683232ab",
+          "bytes": 1083,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "http-body-util",
+      "version": "0.1.5",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/hyperium/http-body",
+      "evidence": {
+        "manifest_sha256": "9802a7455d684d313cca788e7fc76d71978f29f50587f4487b8b1c0a04e2ca84",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "07838bd97b714b95bd783cd695ebf211b67545c4"
+          },
+          "path_in_vcs": "http-body-util"
+        },
+        "registry_archive": {
+          "lock_checksum": "23169fe34a5fbcdd3f3862e78fb9b6fccd5f02a6dc6f732547005d45631ce71c",
+          "available": true,
+          "sha256": "23169fe34a5fbcdd3f3862e78fb9b6fccd5f02a6dc6f732547005d45631ce71c",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/http-body-util-0.1.5/LICENSE",
+          "sha256": "248378d0a3383c173fb925f17141b88e71580b3ba17ddc6ac3d2a344683232ab",
+          "bytes": 1083,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "httparse",
+      "version": "1.10.1",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/seanmonstar/httparse",
+      "evidence": {
+        "manifest_sha256": "067da5f6334526ce5f080909e5c271dd0968ab4198a65eea51d93b242febb48a",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "9f29e79f9832dbd0ae5220acb17c1866745bdecd"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "6dbf3de79e51f3d586ab4cb9d5c3e2c14aa28ed23d180cf89b4df0454a69cc87",
+          "available": true,
+          "sha256": "6dbf3de79e51f3d586ab4cb9d5c3e2c14aa28ed23d180cf89b4df0454a69cc87",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/httparse-1.10.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/httparse-1.10.1/LICENSE-MIT",
+          "sha256": "391a5396cec6230bfabd4ef4eb2350eb895bc5efce377a2218f5702ed020d3e3",
+          "bytes": 1063,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hyper",
+      "version": "1.12.0",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/hyperium/hyper",
+      "evidence": {
+        "manifest_sha256": "dda7caddb7df155f479d2bd4764f201c57311f04969a0e7c893362765857161a",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "7f67699ce32d717081deb7018b4da7d679277ac0"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "2c3e324da4c95177d6291d4c8730197c0d1822f8a9766814a4a44fa5ab797c9c",
+          "available": true,
+          "sha256": "2c3e324da4c95177d6291d4c8730197c0d1822f8a9766814a4a44fa5ab797c9c",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/hyper-1.12.0/LICENSE",
+          "sha256": "2d01890414494742ba4a509fcec8efa40f6d8be22cbd72be7cff08d6fda4ec89",
+          "bytes": 1062,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "hyper-util",
+      "version": "0.1.21",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/hyperium/hyper-util",
+      "evidence": {
+        "manifest_sha256": "be68258b960525839b23a699362c550c7c5e73934cabd9dfe1b2a3fdebb37a2e",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "23a868965964c1d6bb1b94f30ba4c420a4bebe7c"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "ddc03d96684f9226b8a787cdb71488417b53ab5ea8fdb1dac946cb9431cc8bff",
+          "available": true,
+          "sha256": "ddc03d96684f9226b8a787cdb71488417b53ab5ea8fdb1dac946cb9431cc8bff",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/hyper-util-0.1.21/LICENSE",
+          "sha256": "9e0a97848ea543aef745c98e84fde696a9a3e0735538f6daefdd3cb1942effc1",
+          "bytes": 1062,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "reqwest",
+      "version": "0.13.5",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT OR Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/seanmonstar/reqwest",
+      "evidence": {
+        "manifest_sha256": "ab36603e15fa21c4fe1f4e9810245dcb06499cdcf6e6b07296e5d2a3c25c69a1",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "de55373434f07f42926599dbb5a88550d8e55112"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "16a1cfa75cc186dd73d5818e510e042e40927bccc9c236b061cea97e1eb08029",
+          "available": true,
+          "sha256": "16a1cfa75cc186dd73d5818e510e042e40927bccc9c236b061cea97e1eb08029",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE-APACHE",
+          "file": "legal/upstream/updater/reqwest-0.13.5/LICENSE-APACHE",
+          "sha256": "751963a8b88c0e3a9f27e98933079fbcf09b9998b2c13ac49c2e4d58444520d6",
+          "bytes": 10833,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        },
+        {
+          "source_relative_path": "LICENSE-MIT",
+          "file": "legal/upstream/updater/reqwest-0.13.5/LICENSE-MIT",
+          "sha256": "dd87e27dfbaa888cb77ea34592648a7743636b8dce07e49543bddda0fcfc73bc",
+          "bytes": 1063,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "slab",
+      "version": "0.4.12",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/tokio-rs/slab",
+      "evidence": {
+        "manifest_sha256": "11f31284be0c30b612f4e2c2e46aa14494a81639b12661f01f07394e270c0070",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "a1e4346070a48c936d808de75191dee5d01e433c"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "0c790de23124f9ab44544d7ac05d60440adc586479ce501c1d6d7da3cd8c9cf5",
+          "available": true,
+          "sha256": "0c790de23124f9ab44544d7ac05d60440adc586479ce501c1d6d7da3cd8c9cf5",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/slab-0.4.12/LICENSE",
+          "sha256": "8ce0830173fdac609dfb4ea603fdc002c2f4af0dc9b1a005653f5da9cf534b18",
+          "bytes": 1055,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "sync_wrapper",
+      "version": "1.0.2",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "Apache-2.0",
+      "declared_license_file": null,
+      "repository": "https://github.com/Actyx/sync_wrapper",
+      "evidence": {
+        "manifest_sha256": "d6523f082d2ac59ffcdb22683a13b5804543141be28764e7d7a30063000767f9",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "55413956c36aeab47feb8c04d1b7a044d6df336a"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "0bf256ce5efdfa370213c1dabab5935a12e49f2c58d15e9eac2870d3b4f27263",
+          "available": true,
+          "sha256": "0bf256ce5efdfa370213c1dabab5935a12e49f2c58d15e9eac2870d3b4f27263",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/sync_wrapper-1.0.2/LICENSE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL. If relying on Apache-2.0, retain license/NOTICE and modification notices; respect patent/attribution clauses.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tokio-util",
+      "version": "0.7.20",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/tokio-rs/tokio",
+      "evidence": {
+        "manifest_sha256": "5764e31b13ee78f6682505971b022caba784b79e6c458d9b95e0f089a6fb6bda",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "5ec9e6b8d5a7111fe9cd35a637bd8b4e4eb1e483"
+          },
+          "path_in_vcs": "tokio-util"
+        },
+        "registry_archive": {
+          "lock_checksum": "e464cf451ba96ebfc6f9b6542f17ee8b8956e33f1e40d9690624e59d7a7f8a4b",
+          "available": true,
+          "sha256": "e464cf451ba96ebfc6f9b6542f17ee8b8956e33f1e40d9690624e59d7a7f8a4b",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/tokio-util-0.7.20/LICENSE",
+          "sha256": "253cd04c6714889df2d32f3f64d669179a1c95c76ac43c40882c52eb06bc3552",
+          "bytes": 1070,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower",
+      "version": "0.5.3",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/tower-rs/tower",
+      "evidence": {
+        "manifest_sha256": "04763d65eff9423b77055a24a9778f7a2459017a470c723cab8850936c6e5f1b",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "4b0a6b0e688bd177eb2c9c97f5268dd9703c66fc"
+          },
+          "path_in_vcs": "tower"
+        },
+        "registry_archive": {
+          "lock_checksum": "ebe5ef63511595f1344e2d5cfa636d973292adc0eec1f0ad45fae9f0851ab1d4",
+          "available": true,
+          "sha256": "ebe5ef63511595f1344e2d5cfa636d973292adc0eec1f0ad45fae9f0851ab1d4",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/tower-0.5.3/LICENSE",
+          "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+          "bytes": 1062,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-http",
+      "version": "0.6.11",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/tower-rs/tower-http",
+      "evidence": {
+        "manifest_sha256": "b005c4ea79f240e38150bc6c8928342f18ba1c002ec735283fd03437a7a8eedd",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "1d082ef7bdb6d80a2964698804a46c338b4c6a99"
+          },
+          "path_in_vcs": "tower-http"
+        },
+        "registry_archive": {
+          "lock_checksum": "4cfcf7e2740e6fc6d4d688b4ef00650406bb94adf4731e43c096c3a19fe40840",
+          "available": true,
+          "sha256": "4cfcf7e2740e6fc6d4d688b4ef00650406bb94adf4731e43c096c3a19fe40840",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/tower-http-0.6.11/LICENSE",
+          "sha256": "5049cf464977eff4b4fcfa7988d84e74116956a3eb9d5f1d451b3f828f945233",
+          "bytes": 1067,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-layer",
+      "version": "0.3.3",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/tower-rs/tower",
+      "evidence": {
+        "manifest_sha256": "294873d3652f2c23fd4839dffec4edfc3372345a2dd2cec898da4a9fb0b0c1c5",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "fec9e559e276ba9609f939d3b0d2e4fa0504de6f"
+          },
+          "path_in_vcs": "tower-layer"
+        },
+        "registry_archive": {
+          "lock_checksum": "121c2a6cda46980bb0fcd1647ffaf6cd3fc79a013de288782836f6df9c48780e",
+          "available": true,
+          "sha256": "121c2a6cda46980bb0fcd1647ffaf6cd3fc79a013de288782836f6df9c48780e",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/tower-layer-0.3.3/LICENSE",
+          "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+          "bytes": 1062,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "tower-service",
+      "version": "0.3.3",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/tower-rs/tower",
+      "evidence": {
+        "manifest_sha256": "98a29ed09a717054bacd7ae7515e59000303932d04c5da5d5af0f4828f40453d",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "646804d77eebf072dac180cb5e1256b9ee7e0229"
+          },
+          "path_in_vcs": "tower-service"
+        },
+        "registry_archive": {
+          "lock_checksum": "8df9b6e13f2d32c91b9bd719c00d1958837bc7dec474d94952798cc8e69eeec3",
+          "available": true,
+          "sha256": "8df9b6e13f2d32c91b9bd719c00d1958837bc7dec474d94952798cc8e69eeec3",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/tower-service-0.3.3/LICENSE",
+          "sha256": "4249c8e6c5ebb85f97c77e6457c6fafc1066406eb8f1ef61e796fbdc5ff18482",
+          "bytes": 1062,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "try-lock",
+      "version": "0.2.5",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/seanmonstar/try-lock",
+      "evidence": {
+        "manifest_sha256": "b929e378a4dd54a76870264bb0b25d059c8a12ec1dda78a8017d7dbba96260fc",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "fd160ecd9105e8afcc43dbea450a0ef6e5128cce"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "e421abadd41a4225275504ea4d6566923418b7f05506fbc9c0fe86ba7396114b",
+          "available": true,
+          "sha256": "e421abadd41a4225275504ea4d6566923418b7f05506fbc9c0fe86ba7396114b",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/try-lock-0.2.5/LICENSE",
+          "sha256": "c816a0749cdc6bf062a5111c159723de51b2bfac66a1dac2655abd9e6b1583eb",
+          "bytes": 1096,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    },
+    {
+      "ecosystem": "cargo",
+      "name": "want",
+      "version": "0.3.2",
+      "locks": [
+        "main"
+      ],
+      "windows_uses": {
+        "main": [
+          "runtime"
+        ]
+      },
+      "distribution": "newly selected Windows updater dependency",
+      "declared_license": "MIT",
+      "declared_license_file": null,
+      "repository": "https://github.com/seanmonstar/want",
+      "evidence": {
+        "manifest_sha256": "0c927cd8eafad73bbcbedd78694f629ee836e04fbd090b94af0366125b0188ed",
+        "source": "local Cargo registry package manifest; registry checksum in lockfile",
+        "vcs": {
+          "git": {
+            "sha1": "322291ce5a87c72ecfd83d383d0d7f5245cf72c6"
+          },
+          "path_in_vcs": ""
+        },
+        "registry_archive": {
+          "lock_checksum": "ec4cdd0dd910afe868b7ef477227d8d538b46b3075031afee8a9f2acb0a2ed0b",
+          "available": true,
+          "sha256": "ec4cdd0dd910afe868b7ef477227d8d538b46b3075031afee8a9f2acb0a2ed0b",
+          "matches_lock": true
+        }
+      },
+      "notices": [
+        {
+          "source_relative_path": "LICENSE",
+          "file": "legal/upstream/updater/want-0.3.2/LICENSE",
+          "sha256": "a65f5d0a945d267751344c95665945b90c030ea107faf5c85d518929886187da",
+          "bytes": 1063,
+          "full_text_candidate": true,
+          "registry_archive_bytes_match": true
+        }
+      ],
+      "obligations": "Retain applicable copyright, permission, disclaimer and NOTICE files; do not replace upstream terms with PACKIT GPL.",
+      "compatibility_review": "VERIFIED exact-source notices; newly selected by updater, no final legal clearance"
+    }
+  ]
+}

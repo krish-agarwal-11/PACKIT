@@ -1,0 +1,170 @@
+{
+  "requests": [
+    {
+      "id": "github-dropbox__rust-alloc-no-stdlib-0a81fd6928ea3b33c8cd484aa4575d50ffb98012",
+      "url": "https://api.github.com/repos/dropbox/rust-alloc-no-stdlib/git/trees/0a81fd6928ea3b33c8cd484aa4575d50ffb98012?recursive=1",
+      "status": "retrieved",
+      "sha256": "20ddf9bcfda6e47ab83471ea909ffc7888eec8e4cb4587700fecd5a1544753e9",
+      "bytes": 8184,
+      "local": "experiments/license-audit/stage3b/github-dropbox__rust-alloc-no-stdlib-0a81fd6928ea3b33c8cd484aa4575d50ffb98012.json"
+    },
+    {
+      "id": "github-servo__stylo-572ecba2d1600e7c3d490586692a209faf703baa",
+      "url": "https://api.github.com/repos/servo/stylo/git/trees/572ecba2d1600e7c3d490586692a209faf703baa?recursive=1",
+      "status": "retrieved",
+      "sha256": "fb4e68ec9a38c2a2f06b2a29028a712bc27cc3dd4e45202f7b1e77aca0d562b0",
+      "bytes": 96336,
+      "local": "experiments/license-audit/stage3b/github-servo__stylo-572ecba2d1600e7c3d490586692a209faf703baa.json"
+    },
+    {
+      "id": "github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92",
+      "url": "https://api.github.com/repos/tauri-apps/tauri/git/trees/59b63ab500da9859f12d8888c3298bc29bba0b92?recursive=1",
+      "status": "retrieved",
+      "sha256": "b544ab002216da720609f5613df01cabe11f856356ffe4e7a7967b1b82e83bd1",
+      "bytes": 372173,
+      "local": "experiments/license-audit/stage3b/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92.json"
+    },
+    {
+      "id": "github-wravery__webview2-rs-edc2caf886175ccaebe86078c9cfe1ae2a187328",
+      "url": "https://api.github.com/repos/wravery/webview2-rs/git/trees/edc2caf886175ccaebe86078c9cfe1ae2a187328?recursive=1",
+      "status": "retrieved",
+      "sha256": "5187445a4db65b45e8b975a29216debd9d3e9ffe74a1fedf07855b5396527718",
+      "bytes": 13422,
+      "local": "experiments/license-audit/stage3b/github-wravery__webview2-rs-edc2caf886175ccaebe86078c9cfe1ae2a187328.json"
+    },
+    {
+      "id": "github-wravery__webview2-rs-dffa41a8a46d3f5565eefbff2de57d38d399f158",
+      "url": "https://api.github.com/repos/wravery/webview2-rs/git/trees/dffa41a8a46d3f5565eefbff2de57d38d399f158?recursive=1",
+      "status": "retrieved",
+      "sha256": "a976b4af6284d4c8cdd1601ab97ecc7e8e385898c22d717247e5d8124f8bd529",
+      "bytes": 13422,
+      "local": "experiments/license-audit/stage3b/github-wravery__webview2-rs-dffa41a8a46d3f5565eefbff2de57d38d399f158.json"
+    },
+    {
+      "id": "npm-@oxlint__binding-win32-x64-msvc-1.91.0",
+      "url": "https://registry.npmjs.org/@oxlint%2fbinding-win32-x64-msvc/1.91.0",
+      "status": "retrieved",
+      "sha256": "e79957c18101b94bc0b321ada0b3f82a77f63853af06f2b133337e4454b67b0b",
+      "bytes": 1940,
+      "local": "experiments/license-audit/stage3b/npm-@oxlint__binding-win32-x64-msvc-1.91.0.json"
+    },
+    {
+      "id": "npm-@rolldown__binding-win32-x64-msvc-1.2.16",
+      "url": "https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc/1.2.16",
+      "status": "retrieved",
+      "sha256": "6ed3d74d16175dc3fc6375ffbfbd6bce446055e1316bfeafe6e718cc2ca138af",
+      "bytes": 2167,
+      "local": "experiments/license-audit/stage3b/npm-@rolldown__binding-win32-x64-msvc-1.2.16.json"
+    },
+    {
+      "id": "npm-@tailwindcss__oxide-wasm32-wasi-4.3.4",
+      "url": "https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi/4.3.4",
+      "status": "retrieved",
+      "sha256": "03e9328bc19b0bafcffd670bfa8e70959d7664a975dcd0b5be26cc86b0c5952f",
+      "bytes": 2128,
+      "local": "experiments/license-audit/stage3b/npm-@tailwindcss__oxide-wasm32-wasi-4.3.4.json"
+    },
+    {
+      "id": "npm-@napi-rs__wasm-runtime-1.2.2",
+      "url": "https://registry.npmjs.org/@napi-rs%2fwasm-runtime/1.2.2",
+      "status": "retrieved",
+      "sha256": "23ed262d6b05ced4b151f9fc95031ec845232c468c95928e73656afc6a9e9e21",
+      "bytes": 2868,
+      "local": "experiments/license-audit/stage3b/npm-@napi-rs__wasm-runtime-1.2.2.json"
+    },
+    {
+      "id": "npm-@tybys__wasm-util-0.10.3",
+      "url": "https://registry.npmjs.org/@tybys%2fwasm-util/0.10.3",
+      "status": "retrieved",
+      "sha256": "525720a0d1c23f547030fa49274748ad62cb0898b7665617d85a8427fe521296",
+      "bytes": 2303,
+      "local": "experiments/license-audit/stage3b/npm-@tybys__wasm-util-0.10.3.json"
+    },
+    {
+      "id": "npm-@tauri-apps__api-2.12.4",
+      "url": "https://registry.npmjs.org/@tauri-apps%2fapi/2.12.4",
+      "status": "retrieved",
+      "sha256": "5b60b35cef8b170d183bf0813a0ea5b4d512888d04725b85e6304b5480c363d2",
+      "bytes": 3049,
+      "local": "experiments/license-audit/stage3b/npm-@tauri-apps__api-2.12.4.json"
+    },
+    {
+      "id": "npm-@tauri-apps__cli-win32-x64-msvc-2.12.4",
+      "url": "https://registry.npmjs.org/@tauri-apps%2fcli-win32-x64-msvc/2.12.4",
+      "status": "retrieved",
+      "sha256": "99e162df836069676444df252758e90060320155ab720b58f178cb7c0d32e25e",
+      "bytes": 2262,
+      "local": "experiments/license-audit/stage3b/npm-@tauri-apps__cli-win32-x64-msvc-2.12.4.json"
+    },
+    {
+      "id": "npm-@tauri-apps__plugin-dialog-2.8.4",
+      "url": "https://registry.npmjs.org/@tauri-apps%2fplugin-dialog/2.8.4",
+      "status": "retrieved",
+      "sha256": "ce821253c8e7160459ead49b9ebb911562676d03b5f40f42dd476af86cfcac6e",
+      "bytes": 2514,
+      "local": "experiments/license-audit/stage3b/npm-@tauri-apps__plugin-dialog-2.8.4.json"
+    },
+    {
+      "id": "npm-lightningcss-1.33.0",
+      "url": "https://registry.npmjs.org/lightningcss/1.33.0",
+      "status": "retrieved",
+      "sha256": "fded3512a5f9e80975826cb23a5101e55d6b6368f995adf974c8d7e192730476",
+      "bytes": 4266,
+      "local": "experiments/license-audit/stage3b/npm-lightningcss-1.33.0.json"
+    },
+    {
+      "id": "npm-lightningcss-win32-x64-msvc-1.33.0",
+      "url": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/1.33.0",
+      "status": "retrieved",
+      "sha256": "951f0087de5fafeecb794b3abbf521f3e3125345ab094a71307c05ec155282ae",
+      "bytes": 1656,
+      "local": "experiments/license-audit/stage3b/npm-lightningcss-win32-x64-msvc-1.33.0.json"
+    },
+    {
+      "id": "npm-lucide-react-1.67.0",
+      "url": "https://registry.npmjs.org/lucide-react/1.67.0",
+      "status": "retrieved",
+      "sha256": "bf27512a7f7ddf5bcfd963faae755069079a22487a70468f15b3a53af0858ec6",
+      "bytes": 4480,
+      "local": "experiments/license-audit/stage3b/npm-lucide-react-1.67.0.json"
+    },
+    {
+      "id": "npm-react-19.3.1",
+      "url": "https://registry.npmjs.org/react/19.3.1",
+      "status": "retrieved",
+      "sha256": "ecf8c02b9096a7813842d87fae50a707a8809c5c3d0ec6b359ac51d40188ff6f",
+      "bytes": 2150,
+      "local": "experiments/license-audit/stage3b/npm-react-19.3.1.json"
+    },
+    {
+      "id": "npm-react-dom-19.3.1",
+      "url": "https://registry.npmjs.org/react-dom/19.3.1",
+      "status": "retrieved",
+      "sha256": "2d72d7d33a8b0fea5614e1b415d06470877efa8eebbdf638cee04e5b83c2c7a5",
+      "bytes": 3419,
+      "local": "experiments/license-audit/stage3b/npm-react-dom-19.3.1.json"
+    },
+    {
+      "id": "npm-scheduler-0.28.0",
+      "url": "https://registry.npmjs.org/scheduler/0.28.0",
+      "status": "retrieved",
+      "sha256": "64d2492ee21a0de21de22120f932c242b70a0ec8a3bc85a438a9903935a26f00",
+      "bytes": 1714,
+      "local": "experiments/license-audit/stage3b/npm-scheduler-0.28.0.json"
+    },
+    {
+      "id": "7zip-release-26.05",
+      "url": "https://api.github.com/repos/ip7z/7zip/releases/tags/26.05",
+      "status": "retrieved",
+      "sha256": "ffe37d163cc2b259e7d7e80875068d088ea0d8fa372f702cffa6467adfffb29b",
+      "bytes": 24457,
+      "local": "experiments/license-audit/stage3b/7zip-release-26.05.json"
+    },
+    {
+      "id": "webview2-sdk-1.0.3800.47",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.3800.47/microsoft.web.webview2.1.0.3800.47.nupkg",
+      "status": "unavailable",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    }
+  ]
+}

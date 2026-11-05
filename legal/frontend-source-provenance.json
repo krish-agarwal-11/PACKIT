@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "name": "@tauri-apps/api",
+      "version": "2.12.4",
+      "archive": "experiments/license-audit/stage3b/archive-@tauri-apps__api-2.12.4.json",
+      "sha256": "ea354409df3dcc473395111a5f6bf0031c8444cf827604515169aa3af5e9357a",
+      "source_id": "preferred-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92",
+      "repository": "tauri-apps/tauri",
+      "commit": "59b63ab500da9859f12d8888c3298bc29bba0b92",
+      "association": "npm publisher provenance claim; signature not independently verified",
+      "source_manifests": [
+        {
+          "file": "tauri-59b63ab500da9859f12d8888c3298bc29bba0b92/packages/api/package.json",
+          "declared_version": "2.12.4"
+        }
+      ]
+    },
+    {
+      "name": "@tauri-apps/plugin-dialog",
+      "version": "2.8.4",
+      "archive": "experiments/license-audit/stage3b/archive-@tauri-apps__plugin-dialog-2.8.4.json",
+      "sha256": "3eff363f336b8d62ee321bbf78b39988fd162e597c961f3ea1c00cf3de9ed791",
+      "source_id": "preferred-tauri-apps__plugins-workspace-128190689dbe59b59d344e01bf07b00862aa3791",
+      "repository": "tauri-apps/plugins-workspace",
+      "commit": "128190689dbe59b59d344e01bf07b00862aa3791",
+      "association": "registry gitHead",
+      "source_manifests": [
+        {
+          "file": "plugins-workspace-128190689dbe59b59d344e01bf07b00862aa3791/plugins/dialog/package.json",
+          "declared_version": "2.8.4"
+        }
+      ]
+    },
+    {
+      "name": "lucide-react",
+      "version": "1.67.0",
+      "archive": "experiments/license-audit/stage3b/archive-lucide-react-1.67.0.json",
+      "sha256": "9c1382c665b7dd6d45f822acef2a0fac31c504a43a43a41773e0bc70ae5fe85a",
+      "source_id": "preferred-lucide-icons__lucide-4b203ec9b6002fd74fd5dadc8612220e64289305",
+      "repository": "lucide-icons/lucide",
+      "commit": "4b203ec9b6002fd74fd5dadc8612220e64289305",
+      "association": "npm publisher provenance claim; signature not independently verified",
+      "source_manifests": [
+        {
+          "file": "lucide-4b203ec9b6002fd74fd5dadc8612220e64289305/packages/lucide-react/package.json",
+          "declared_version": "0.0.1"
+        }
+      ]
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "archive": "experiments/license-audit/stage3b/archive-react-19.3.1.json",
+      "sha256": "56936913918dcf1f7a6fe58784e79df54b18200a88655ce809cf5e9c4ef871aa",
+      "source_id": "preferred-react__react-61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+      "repository": "react/react",
+      "commit": "61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+      "association": "registry gitHead",
+      "source_manifests": [
+        {
+          "file": "react-61aa00df822d0eb76d0362eb8b6fdd3527693efe/packages/react/package.json",
+          "declared_version": "19.3.1"
+        }
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "archive": "experiments/license-audit/stage3b/archive-react-dom-19.3.1.json",
+      "sha256": "8b49975821eec6311e00d2b3f4b8337923253c876517388a33f9839c61ab262e",
+      "source_id": "preferred-react__react-61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+      "repository": "react/react",
+      "commit": "61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+      "association": "registry gitHead",
+      "source_manifests": [
+        {
+          "file": "react-61aa00df822d0eb76d0362eb8b6fdd3527693efe/packages/react-dom/package.json",
+          "declared_version": "19.3.1"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "archive": "experiments/license-audit/stage3b/archive-scheduler-0.28.0.json",
+      "sha256": "302995d590e3c0a11eeb40d1d0f299c1df1800135d599d85cdd5faeb614f32d6",
+      "source_id": "preferred-react__react-1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "repository": "react/react",
+      "commit": "1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "association": "registry gitHead",
+      "source_manifests": [
+        {
+          "file": "react-1d34f91dfde6bba84d08b683aaba164c7194dacb/packages/scheduler/package.json",
+          "declared_version": "0.28.0"
+        }
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "id": "preferred-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92",
+      "url": "https://codeload.github.com/tauri-apps/tauri/tar.gz/59b63ab500da9859f12d8888c3298bc29bba0b92",
+      "status": "retrieved",
+      "sha256": "aebd91e21c036a308ddc3be023deb9fe075706777fb06da9d173be3349beea56",
+      "bytes": 15789961,
+      "local": "experiments/license-audit/stage3b/preferred-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92.json"
+    },
+    {
+      "id": "preferred-tauri-apps__plugins-workspace-128190689dbe59b59d344e01bf07b00862aa3791",
+      "url": "https://codeload.github.com/tauri-apps/plugins-workspace/tar.gz/128190689dbe59b59d344e01bf07b00862aa3791",
+      "status": "retrieved",
+      "sha256": "faba71a6dcee9ac1faf527aca8da55f48bfe88d9e14de7db921d098bfccb3650",
+      "bytes": 7255906,
+      "local": "experiments/license-audit/stage3b/preferred-tauri-apps__plugins-workspace-128190689dbe59b59d344e01bf07b00862aa3791.json"
+    },
+    {
+      "id": "preferred-lucide-icons__lucide-4b203ec9b6002fd74fd5dadc8612220e64289305",
+      "url": "https://codeload.github.com/lucide-icons/lucide/tar.gz/4b203ec9b6002fd74fd5dadc8612220e64289305",
+      "status": "retrieved",
+      "sha256": "edea7fd90664f7e7b6759aaaca8667dd1e7c18628c5ad75fb70a75fa7832cd2d",
+      "bytes": 5651240,
+      "local": "experiments/license-audit/stage3b/preferred-lucide-icons__lucide-4b203ec9b6002fd74fd5dadc8612220e64289305.json"
+    },
+    {
+      "id": "preferred-react__react-61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+      "url": "https://codeload.github.com/react/react/tar.gz/61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+      "status": "retrieved",
+      "sha256": "df6b860384f0be8bf6e3ca6ce970226c6be70be2f2cf1cb5ed0c7567b8e4dede",
+      "bytes": 10260909,
+      "local": "experiments/license-audit/stage3b/preferred-react__react-61aa00df822d0eb76d0362eb8b6fdd3527693efe.json"
+    },
+    {
+      "id": "preferred-react__react-1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "url": "https://codeload.github.com/react/react/tar.gz/1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "status": "retrieved",
+      "sha256": "ef34c2ad2fe4af769cdc8a067d827fbba8fde677d83f5befaa8a8cc5c3a8c6be",
+      "bytes": 10252630,
+      "local": "experiments/license-audit/stage3b/preferred-react__react-1d34f91dfde6bba84d08b683aaba164c7194dacb.json"
+    }
+  ]
+}

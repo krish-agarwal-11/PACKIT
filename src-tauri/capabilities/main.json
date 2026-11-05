@@ -1,0 +1,14 @@
+{
+  "identifier": "main",
+  "description": "Local desktop windows and native dialogs. Updates use guarded main-window Rust commands; direct updater plugin IPC permissions are deliberately not granted.",
+  "windows": [
+    "main",
+    "operation"
+  ],
+  "permissions": [
+    "core:default",
+    "dialog:allow-open",
+    "core:window:allow-set-theme",
+    "core:window:allow-close"
+  ]
+}

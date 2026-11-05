@@ -1,0 +1,150 @@
+[
+  {
+    "file": "provenance-npm-@tauri-apps__api-2.12.4.json",
+    "type": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+    "statement": {
+      "_type": "https://in-toto.io/Statement/v0.1",
+      "subject": [
+        {
+          "name": "pkg:npm/%40tauri-apps/api@2.12.4",
+          "digest": {
+            "sha512": "a5599f8acfb8cd3f07d10869df13d9c7d26eee4a73bc0eabaff3d224fcaec1fbee71343cb15b7ad4d614f4a3242bbd3750595869d1668ca0381e1c9b3ad37482"
+          }
+        }
+      ],
+      "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+      "predicate": {
+        "name": "@tauri-apps/api",
+        "version": "2.12.4",
+        "registry": "https://registry.npmjs.org"
+      }
+    },
+    "signature_verification": "not independently verified in this audit"
+  },
+  {
+    "file": "provenance-npm-@tauri-apps__api-2.12.4.json",
+    "type": "https://slsa.dev/provenance/v1",
+    "statement": {
+      "_type": "https://in-toto.io/Statement/v1",
+      "subject": [
+        {
+          "name": "pkg:npm/%40tauri-apps/api@2.12.4",
+          "digest": {
+            "sha512": "a5599f8acfb8cd3f07d10869df13d9c7d26eee4a73bc0eabaff3d224fcaec1fbee71343cb15b7ad4d614f4a3242bbd3750595869d1668ca0381e1c9b3ad37482"
+          }
+        }
+      ],
+      "predicateType": "https://slsa.dev/provenance/v1",
+      "predicate": {
+        "buildDefinition": {
+          "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+          "externalParameters": {
+            "workflow": {
+              "ref": "refs/heads/dev",
+              "repository": "https://github.com/tauri-apps/tauri",
+              "path": ".github/workflows/covector-version-or-publish.yml"
+            }
+          },
+          "internalParameters": {
+            "github": {
+              "event_name": "push",
+              "repository_id": "196701619",
+              "repository_owner_id": "54536011"
+            }
+          },
+          "resolvedDependencies": [
+            {
+              "uri": "git+https://github.com/tauri-apps/tauri@refs/heads/dev",
+              "digest": {
+                "gitCommit": "59b63ab500da9859f12d8888c3298bc29bba0b92"
+              }
+            }
+          ]
+        },
+        "runDetails": {
+          "builder": {
+            "id": "https://github.com/actions/runner/github-hosted"
+          },
+          "metadata": {
+            "invocationId": "https://github.com/tauri-apps/tauri/actions/runs/38608838051/attempts/1"
+          }
+        }
+      }
+    },
+    "signature_verification": "not independently verified in this audit"
+  },
+  {
+    "file": "provenance-npm-lucide-react-1.67.0.json",
+    "type": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+    "statement": {
+      "_type": "https://in-toto.io/Statement/v0.1",
+      "subject": [
+        {
+          "name": "pkg:npm/lucide-react@1.67.0",
+          "digest": {
+            "sha512": "cfb91ddb560d9bf1b0dc4ee64e7ab9753baf57ec9cf8e13003ffe80c43521b549b67f35580a763c402c914d746a02d098bb1da251d8385af5ebfb5543f1cbd09"
+          }
+        }
+      ],
+      "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+      "predicate": {
+        "name": "lucide-react",
+        "version": "1.67.0",
+        "registry": "https://registry.npmjs.org"
+      }
+    },
+    "signature_verification": "not independently verified in this audit"
+  },
+  {
+    "file": "provenance-npm-lucide-react-1.67.0.json",
+    "type": "https://slsa.dev/provenance/v1",
+    "statement": {
+      "_type": "https://in-toto.io/Statement/v1",
+      "subject": [
+        {
+          "name": "pkg:npm/lucide-react@1.67.0",
+          "digest": {
+            "sha512": "cfb91ddb560d9bf1b0dc4ee64e7ab9753baf57ec9cf8e13003ffe80c43521b549b67f35580a763c402c914d746a02d098bb1da251d8385af5ebfb5543f1cbd09"
+          }
+        }
+      ],
+      "predicateType": "https://slsa.dev/provenance/v1",
+      "predicate": {
+        "buildDefinition": {
+          "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+          "externalParameters": {
+            "workflow": {
+              "ref": "refs/heads/main",
+              "repository": "https://github.com/lucide-icons/lucide",
+              "path": ".github/workflows/ci.yml"
+            }
+          },
+          "internalParameters": {
+            "github": {
+              "event_name": "schedule",
+              "repository_id": "270722949",
+              "repository_owner_id": "66879934"
+            }
+          },
+          "resolvedDependencies": [
+            {
+              "uri": "git+https://github.com/lucide-icons/lucide@refs/heads/main",
+              "digest": {
+                "gitCommit": "4b203ec9b6002fd74fd5dadc8612220e64289305"
+              }
+            }
+          ]
+        },
+        "runDetails": {
+          "builder": {
+            "id": "https://github.com/actions/runner/github-hosted"
+          },
+          "metadata": {
+            "invocationId": "https://github.com/lucide-icons/lucide/actions/runs/41587590702/attempts/1"
+          }
+        }
+      }
+    },
+    "signature_verification": "not independently verified in this audit"
+  }
+]

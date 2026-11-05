@@ -1,0 +1,13 @@
+{
+  "release_approved": false,
+  "purpose": "Legal asset staging plan only; installer not implemented",
+  "license_display": "LICENSE",
+  "notice_entry_point": "THIRD_PARTY_NOTICES.md",
+  "copy_paths": [
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "legal/"
+  ],
+  "existing_backend_source": "src-tauri/vendor/7zip/7zip-26.05-source.tar.gz",
+  "must_resolve_first": "legal/RELEASE_REVIEW.md"
+}

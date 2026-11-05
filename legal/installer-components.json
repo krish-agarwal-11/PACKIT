@@ -1,0 +1,7 @@
+{
+  "nsis": "3.13; supplied and hash-verified by Tauri CLI",
+  "utility_version": "0.5.3",
+  "source_url": "https://codeload.github.com/tauri-apps/nsis-tauri-utils/tar.gz/refs/tags/nsis_tauri_utils-v0.5.3",
+  "source_sha256": "34150c4cee737baca022a18d4b0483c5e8f684924249f0580fbef3d6dfe970d4",
+  "scope": "Private installer components; final distribution compliance remains pending. No independent binary reproducibility claim."
+}

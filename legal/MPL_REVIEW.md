@@ -1,0 +1,9 @@
+# MPL 2.0 source and Larger Work review
+
+**RESOLVED: source preservation and eligibility evidence; PREPARED: final recipient delivery.**
+
+Windows-selected MPL packages are cssparser 0.37.0, cssparser-macros 0.7.1 (proc macro), dtoa-short 0.3.5, option-ext 0.2.0 and selectors 0.38.0. Exact locked .crate source archives are included in sources/mpl/. mpl-source-review.json records source-file hashes/headers. Every packaged file matched the installed source cache; no local modifications or source-file Incompatible With Secondary Licenses declarations were found. selectors' source permission header and full MPL 2.0 supply the applicable license even though its crate does not carry a standalone LICENSE file. Source declarations, not a package-name guess, support this conclusion.
+
+Use MPL section 3.3's eligible GPL Larger Work route with **unmodified original MPL source files and notices retained**. Do not replace their headers with PACKIT's GPL identifier. Mozilla recommends leaving unmodified incorporated files untouched: [official combination guidance](https://www.mozilla.org/en-US/MPL/2.0/combining-mpl-and-gpl/), [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/). No exact-source Exhibit B designation was found; complete license texts containing the Exhibit B template are not themselves an applied incompatibility notice.
+
+Macros are build-time but can affect generated code. Preserve macro source, generator inputs and original permission notices as part of the conservative source package; no separate generated-source copyright removal or indiscriminate relicensing is performed. Changed/generated output must be checked against the actual final build. Preserve MPL rights and supply actual Source Code Form/access instructions for covered files with final executable delivery. The internal candidate is not public availability. The source candidate includes covered packages rather than relying on a generic upstream homepage.

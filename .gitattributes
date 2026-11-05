@@ -1,0 +1,2 @@
+# Preserve exact upstream notices, assets and recorded source hashes on every checkout.
+* -text

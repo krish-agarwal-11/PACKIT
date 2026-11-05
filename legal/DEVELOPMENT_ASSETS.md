@@ -1,0 +1,7 @@
+# Development assets and distribution exclusions
+
+Unused non-approved public/favicon.svg, public/icons.svg, src/assets/vite.svg, src/assets/hero.png and root packit-icon.png were reference-checked and removed. Stale dist copies of the two SVGs were also removed. Originals are in ignored local audit quarantine, never the source allowlist. Approved branding/packit-logo.png and branding/packit-icon.png remain byte-identical; generated native icons were not changed. No UI or font changes were made.
+
+Thirteen libarchive-derived RAR fixtures have uncertain per-file redistribution permissions. They remain unchanged locally, preserving every test. distribution-exclusions.json records exact hashes, pinned upstream URLs and the RAR4 transformation; source generation excludes them. `python scripts/restore_test_fixtures.py` verifies local fixtures; `--fetch` explicitly retrieves only missing fixtures and validates hashes. This is optional test setup, not permission to redistribute the fetched data. Top-level libarchive COPYING alone does not resolve those permissions. Do not recursively publish this working tree or ignored experiments/caches.
+
+Original generated archive/ISO fixtures and test sources remain included. The user's external ISO is never included. System fonts are referenced, not bundled. Unmodified general build tools are obtained by locked npm ci/toolchain setup, not redistributed as node_modules binaries; any future conveyance of those binaries requires their missing notices first.

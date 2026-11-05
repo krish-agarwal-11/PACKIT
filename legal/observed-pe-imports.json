@@ -1,0 +1,75 @@
+[
+  {
+    "file": "src-tauri/target/debug/packit.exe",
+    "sha256": "5b8a8aeae4ecddad6cf7eee0fadd4f2df5a4166cef0cf7e268a7a5866b8b8ca0",
+    "imports": [
+      "bcryptprimitives.dll",
+      "advapi32.dll",
+      "ntdll.dll",
+      "kernel32.dll",
+      "ole32.dll",
+      "combase.dll",
+      "shell32.dll",
+      "shlwapi.dll",
+      "comctl32.dll",
+      "user32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "dwmapi.dll",
+      "gdi32.dll",
+      "imm32.dll",
+      "oleaut32.dll",
+      "api-ms-win-core-winrt-error-l1-1-0.dll",
+      "userenv.dll",
+      "ADVAPI32.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll"
+    ],
+    "assessment": "Observed debug/bundled artifact only; not a final release dependency or redistribution clearance."
+  },
+  {
+    "file": "src-tauri/vendor/7zip/7z.exe",
+    "sha256": "94205cfc054dd3bbeb978905bc619a65b3f04e9e73bb2717841110b6f46d962e",
+    "imports": [
+      "OLEAUT32.dll",
+      "USER32.dll",
+      "ADVAPI32.dll",
+      "msvcrt.dll",
+      "KERNEL32.dll"
+    ],
+    "assessment": "Observed debug/bundled artifact only; not a final release dependency or redistribution clearance."
+  },
+  {
+    "file": "src-tauri/vendor/7zip/7z.dll",
+    "sha256": "78bf6b668d75801e3aa180b4ccb16e6d8395fba80dec8a065055bb6f8dfabb82",
+    "imports": [
+      "OLEAUT32.dll",
+      "USER32.dll",
+      "ADVAPI32.dll",
+      "msvcrt.dll",
+      "KERNEL32.dll"
+    ],
+    "assessment": "Observed debug/bundled artifact only; not a final release dependency or redistribution clearance."
+  },
+  {
+    "file": "src-tauri/vendor/shell/packit_shell_v4_c79ca6f80007.dll",
+    "sha256": "c79ca6f80007b739743e6d55e9a9c5cfa9d100b9fd231f02a4b2d3596bf35ae4",
+    "imports": [
+      "combase.dll",
+      "kernel32.dll",
+      "oleaut32.dll",
+      "api-ms-win-core-synch-l1-2-0.dll",
+      "KERNEL32.dll",
+      "ntdll.dll",
+      "VCRUNTIME140.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll"
+    ],
+    "assessment": "Observed debug/bundled artifact only; not a final release dependency or redistribution clearance."
+  }
+]

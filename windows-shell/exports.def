@@ -1,0 +1,4 @@
+LIBRARY packit_shell
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE

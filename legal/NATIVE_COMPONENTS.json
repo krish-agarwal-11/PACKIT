@@ -1,0 +1,94 @@
+{
+  "loader_dll_reported_file_version": "1.0.3800.47",
+  "files": [
+    {
+      "source": "cargo:webview2-com-sys@0.39.1/x64/WebView2Loader.dll",
+      "sha256": "86545b66cdb0603bc26b626fb9ad610cb6e71f28d468f5ea66df23b03dda96d5",
+      "bytes": 160880,
+      "terms": "RESOLVED license identity: exact Microsoft SDK 1.0.3800.47 BSD-3-Clause plus complete NOTICE; static-loader GPL source/exception review remains open",
+      "delivery": "MSVC binding selects WebView2LoaderStatic.lib; other SDK file variants are cached build inputs, not explicitly bundled resources",
+      "registry_archive_bytes_match": true
+    },
+    {
+      "source": "cargo:webview2-com-sys@0.39.1/x64/WebView2Loader.dll.lib",
+      "sha256": "bfc8ccaaa056be95243a5b66a827e5849d2bb39676fca4dcc2053796d8e15c6d",
+      "bytes": 2916,
+      "terms": "RESOLVED license identity: exact Microsoft SDK 1.0.3800.47 BSD-3-Clause plus complete NOTICE; static-loader GPL source/exception review remains open",
+      "delivery": "MSVC binding selects WebView2LoaderStatic.lib; other SDK file variants are cached build inputs, not explicitly bundled resources",
+      "registry_archive_bytes_match": true
+    },
+    {
+      "source": "cargo:webview2-com-sys@0.39.1/x64/WebView2LoaderStatic.lib",
+      "sha256": "89c6b872783b8f6c3cedbff618adb42082d455c615453ae10cfc753f1e8f25d8",
+      "bytes": 10500472,
+      "terms": "RESOLVED license identity: exact Microsoft SDK 1.0.3800.47 BSD-3-Clause plus complete NOTICE; static-loader GPL source/exception review remains open",
+      "delivery": "MSVC binding selects WebView2LoaderStatic.lib; other SDK file variants are cached build inputs, not explicitly bundled resources",
+      "registry_archive_bytes_match": true
+    }
+  ],
+  "binding_static_link_evidence": "webview2-com-sys 0.39.1/src/lib.rs:17 (target_env=msvc)",
+  "sdk_provenance": {
+    "package": "Microsoft.Web.WebView2",
+    "version": "1.0.3800.47",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.3800.47/microsoft.web.webview2.1.0.3800.47.nupkg",
+    "sha256": "56c9f26bdd07916a2d1949fb58a5c7e434dfa1173577dca879206050c4e718db",
+    "license": "BSD-3-Clause text with Microsoft copyright; entire SDK NOTICE retained",
+    "matches": [
+      {
+        "arch": "x64",
+        "file": "WebView2Loader.dll",
+        "sha256": "86545b66cdb0603bc26b626fb9ad610cb6e71f28d468f5ea66df23b03dda96d5",
+        "matches_sdk": true
+      },
+      {
+        "arch": "x64",
+        "file": "WebView2Loader.dll.lib",
+        "sha256": "bfc8ccaaa056be95243a5b66a827e5849d2bb39676fca4dcc2053796d8e15c6d",
+        "matches_sdk": true
+      },
+      {
+        "arch": "x64",
+        "file": "WebView2LoaderStatic.lib",
+        "sha256": "89c6b872783b8f6c3cedbff618adb42082d455c615453ae10cfc753f1e8f25d8",
+        "matches_sdk": true
+      },
+      {
+        "arch": "x86",
+        "file": "WebView2Loader.dll",
+        "sha256": "161dc6673084a31f64670ace8e61cb0e1b55af815b6c7c8217a0cdd8503454e2",
+        "matches_sdk": true
+      },
+      {
+        "arch": "x86",
+        "file": "WebView2Loader.dll.lib",
+        "sha256": "a3ec0ee539d58fe72391f2e89cb814f96fab721c6d8d30953d152ea95dffad49",
+        "matches_sdk": true
+      },
+      {
+        "arch": "x86",
+        "file": "WebView2LoaderStatic.lib",
+        "sha256": "0513f7e61304321f2d91e1851475be07e091042aa3640597e660608f72521e6c",
+        "matches_sdk": true
+      },
+      {
+        "arch": "arm64",
+        "file": "WebView2Loader.dll",
+        "sha256": "a0de1844933a10c898f833771a85f0ab9a0e3c745d4715f63d2d9730f9416025",
+        "matches_sdk": true
+      },
+      {
+        "arch": "arm64",
+        "file": "WebView2Loader.dll.lib",
+        "sha256": "d70271daa44507865ca0696cd1c1ede5e58e694eec74cb2d06e17dbbe205e9a2",
+        "matches_sdk": true
+      },
+      {
+        "arch": "arm64",
+        "file": "WebView2LoaderStatic.lib",
+        "sha256": "4a1ca4b518337c508aa0d778b220c6e59558fce21f4fd0d79a6ea944dd9d5208",
+        "matches_sdk": true
+      }
+    ],
+    "remaining": "GPL Corresponding Source / System Library treatment of static loader; SDK package contains no loader implementation source"
+  }
+}

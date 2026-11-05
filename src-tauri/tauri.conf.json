@@ -1,0 +1,76 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "PACKIT",
+  "version": "0.1.0",
+  "identifier": "org.packit.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev:desktop",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build:desktop",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "icon": [
+      "icons/icon.png",
+      "icons/icon.ico",
+      "icons/icon.icns"
+    ],
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "installerHooks": "windows/installer-hooks.nsh",
+        "installerIcon": "icons/icon.ico",
+        "uninstallerIcon": "icons/icon.ico",
+        "languages": [
+          "English"
+        ],
+        "displayLanguageSelector": false,
+        "startMenuFolder": "PACKIT",
+        "compression": "zlib"
+      },
+      "allowDowngrades": false,
+      "webviewInstallMode": {
+        "type": "skip"
+      },
+      "bundleVCRuntime": false
+    },
+    "resources": {
+      "vendor/7zip/": "vendor/7zip/",
+      "vendor/shell/manifest.json": "vendor/shell/manifest.json",
+      "vendor/shell/NOTICE.md": "vendor/shell/NOTICE.md",
+      "../LICENSE": "LICENSE",
+      "../THIRD_PARTY_NOTICES.md": "THIRD_PARTY_NOTICES.md",
+      "../legal/": "legal/",
+      "vendor/shell/COPYING-GPL-3.0.txt": "vendor/shell/COPYING-GPL-3.0.txt",
+      "vendor/windows-rs/": "vendor/windows-rs/"
+    },
+    "publisher": "Krish Agarwal",
+    "copyright": "Copyright (C) 2026 Krish Agarwal",
+    "license": "GPL-3.0-only",
+    "licenseFile": "../LICENSE",
+    "shortDescription": "A modern archive manager",
+    "longDescription": "Pack, unpack, browse and manage archives locally."
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDkyOUZBMjlFRTEwN0I3NEQKUldSTnR3ZmhucUtma3RwRnVLZUpxZ2lWVFZTZ1lUQll0YWFiTEh0SHlVRVBWTHA1MW5IUjgraDEK",
+      "endpoints": [
+        "https://github.com/krish-agarwal-11/PACKIT/releases/latest/download/latest.json"
+      ],
+      "requireSignedVersion": true,
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  }
+}

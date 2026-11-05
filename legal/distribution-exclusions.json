@@ -1,0 +1,141 @@
+{
+  "removed_assets": [
+    {
+      "file": "public/favicon.svg",
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "reason": "unused, non-approved legacy asset; quarantined locally outside all source/payload allowlists"
+    },
+    {
+      "file": "public/icons.svg",
+      "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "reason": "unused, non-approved legacy asset; quarantined locally outside all source/payload allowlists"
+    },
+    {
+      "file": "src/assets/vite.svg",
+      "sha256": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f",
+      "reason": "unused, non-approved legacy asset; quarantined locally outside all source/payload allowlists"
+    },
+    {
+      "file": "src/assets/hero.png",
+      "sha256": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c",
+      "reason": "unused, non-approved legacy asset; quarantined locally outside all source/payload allowlists"
+    },
+    {
+      "file": "packit-icon.png",
+      "sha256": "c6404cd2f830ea4e1598bbd9a9e9967b12e3fec137e44811f7502ebb42240712",
+      "reason": "unused, non-approved legacy asset; quarantined locally outside all source/payload allowlists"
+    },
+    {
+      "file": "dist/favicon.svg",
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "reason": "unused, non-approved legacy asset; quarantined locally outside all source/payload allowlists"
+    },
+    {
+      "file": "dist/icons.svg",
+      "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "reason": "unused, non-approved legacy asset; quarantined locally outside all source/payload allowlists"
+    }
+  ],
+  "local_only_fixtures": [
+    {
+      "file": "src-tauri/tests/fixtures/compressed-rar4.rar",
+      "sha256": "352f86e5cec1341a5806bff7c0856f470e76c484e8048fbe5fd53bdf5eb441af",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar_compress_normal.rar.uu",
+      "transform": "rar4-single-member",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/compressed-rar5.rar",
+      "sha256": "68f9d7e2662cd5bc5607ba9c6bf1edbf121cf3b08011a7d8643091791750a7c8",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_compressed.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/rar5.part01.rar",
+      "sha256": "2f3894dc4b8a1bba90830ef1f89f457b0295b6f9030c70febd57283721bc2ce3",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_multiarchive.part01.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/rar5.part02.rar",
+      "sha256": "0a5b7a8923beb5747d67f708f17bdc4ebfc8cf2c3010523332e1a1633d7a4c72",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_multiarchive.part02.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/rar5.part03.rar",
+      "sha256": "31699cbed68297245347911910743c3cb0c6075d28336a7dd4864d4019b8208a",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_multiarchive.part03.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/rar5.part04.rar",
+      "sha256": "c2d0d72b7c4dd229a944986eee95f802e487e4570e41f7ca7e77b9e82ca4119c",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_multiarchive.part04.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/rar5.part05.rar",
+      "sha256": "cc69c161ec00e2deeec263fb24f704d1f0d90ccc6b2aeb3baed2539878b5240d",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_multiarchive.part05.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/rar5.part06.rar",
+      "sha256": "86b7efeacaf2443564220c683eec0880b999dbfe27ae1bc2645f0fffe4646d8c",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_multiarchive.part06.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/rar5.part07.rar",
+      "sha256": "0b2c9bc7b5679069f9cbe68a9e08351868a3309bf24a5534d8207cf14d41b8b7",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_multiarchive.part07.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/rar5.part08.rar",
+      "sha256": "b86fa56607d4ee98e0374f84040a0e11ab18bc726a8b772151a1feee9c7045a3",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_read_format_rar5_multiarchive.part08.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/sample.part1.rar",
+      "sha256": "54769cdaa6aeac494b9ba580804598369ba240f61550620434e08350e4428ec2",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_rar_multivolume_single_file.part1.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/sample.part2.rar",
+      "sha256": "9dd6b28d2fdf0d012390259548cc86be9535ee6eb5ec630c99fbb5dc8d037ed1",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_rar_multivolume_single_file.part2.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    },
+    {
+      "file": "src-tauri/tests/fixtures/volumes/sample.part3.rar",
+      "sha256": "7d72ef6e876e98e6a317b7e534c0285615a2953543e68135a8a0dcc94b41cf21",
+      "upstream_url": "https://raw.githubusercontent.com/libarchive/libarchive/v3.8.11/libarchive/test/test_rar_multivolume_single_file.part3.rar.uu",
+      "transform": "uu",
+      "distribution": "excluded from source/payload bundles pending per-fixture permissions; retained locally unchanged"
+    }
+  ],
+  "exclude_prefixes": [
+    "experiments/",
+    "node_modules/",
+    "dist/",
+    ".cargo-cache/",
+    "src-tauri/target/",
+    "windows-shell/target/"
+  ],
+  "local_tests_preserved": true
+}

@@ -1,0 +1,457 @@
+{
+  "requests": [
+    {
+      "id": "github-dropbox__rust-alloc-no-stdlib-0a81fd6928ea3b33c8cd484aa4575d50ffb98012__LICENSE",
+      "url": "https://api.github.com/repos/dropbox/rust-alloc-no-stdlib/git/blobs/cd496ba72eb37e83a44958358d1f89a8a28cbc15",
+      "status": "retrieved",
+      "sha256": "f6501966f4d4737ae893f2b383c511e8cb67195a106cf1bbe7d72b007d3448d2",
+      "bytes": 2347,
+      "local": "experiments/license-audit/stage3b/github-dropbox__rust-alloc-no-stdlib-0a81fd6928ea3b33c8cd484aa4575d50ffb98012__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/github-dropbox__rust-alloc-no-stdlib-0a81fd6928ea3b33c8cd484aa4575d50ffb98012.json",
+        "path": "LICENSE",
+        "git_blob": "cd496ba72eb37e83a44958358d1f89a8a28cbc15"
+      },
+      "notice": "legal/upstream/recovered/github-dropbox__rust-alloc-no-stdlib-0a81fd6928ea3b33c8cd484aa4575d50ffb98012__LICENSE",
+      "notice_sha256": "c0c56f26d9c051cac4d200c34c84e7ae9aaa853e01a982a1df08b09931e518ae"
+    },
+    {
+      "id": "github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE-APACHE-2.0",
+      "url": "https://api.github.com/repos/tauri-apps/tauri/git/blobs/f433b1a53f5b830a205fd2df78e2b34974656c7b",
+      "status": "retrieved",
+      "sha256": "b9ebe586ade16859d29aa7eb080d5b3696d1e6d84965b36406a8e14d03c0a3e7",
+      "bytes": 14312,
+      "local": "experiments/license-audit/stage3b/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE-APACHE-2.0.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92.json",
+        "path": "LICENSE-APACHE-2.0",
+        "git_blob": "f433b1a53f5b830a205fd2df78e2b34974656c7b"
+      },
+      "notice": "legal/upstream/recovered/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE-APACHE-2.0",
+      "notice_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "id": "github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE-MIT",
+      "url": "https://api.github.com/repos/tauri-apps/tauri/git/blobs/b08530d59433b3060f4fad8751ac2610c0b0aff3",
+      "status": "retrieved",
+      "sha256": "fe158c9e86b396e215b0dc307b342a9a02f4f308a70e402658cb3b560fc8281e",
+      "bytes": 1795,
+      "local": "experiments/license-audit/stage3b/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE-MIT.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92.json",
+        "path": "LICENSE-MIT",
+        "git_blob": "b08530d59433b3060f4fad8751ac2610c0b0aff3"
+      },
+      "notice": "legal/upstream/recovered/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE-MIT",
+      "notice_sha256": "9dd42ea92cff2ede5cd477cbfcce051b2d0115c0ac7f368ee88cb545055dff1d"
+    },
+    {
+      "id": "github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE.spdx",
+      "url": "https://api.github.com/repos/tauri-apps/tauri/git/blobs/4080281f12fc44a831babb7bb4f531aeb070078b",
+      "status": "retrieved",
+      "sha256": "1d441882a1ca4961d92ffef719c99428140aeb7148be5afac178e35e5dca5c68",
+      "bytes": 1516,
+      "local": "experiments/license-audit/stage3b/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE.spdx.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92.json",
+        "path": "LICENSE.spdx",
+        "git_blob": "4080281f12fc44a831babb7bb4f531aeb070078b"
+      },
+      "notice": "legal/upstream/recovered/github-tauri-apps__tauri-59b63ab500da9859f12d8888c3298bc29bba0b92__LICENSE.spdx",
+      "notice_sha256": "5e834fe9788c524210deda859c46a550ffa5aa0cba9ea0572f0d81120e97c008"
+    },
+    {
+      "id": "github-wravery__webview2-rs-dffa41a8a46d3f5565eefbff2de57d38d399f158__LICENSE",
+      "url": "https://api.github.com/repos/wravery/webview2-rs/git/blobs/de9a7e660e173136b351982a34f715af424ff812",
+      "status": "retrieved",
+      "sha256": "f754ee538e2834d045e1f9fc6aa5be0273f1ee7402b273f9ee57b2208db61511",
+      "bytes": 1764,
+      "local": "experiments/license-audit/stage3b/github-wravery__webview2-rs-dffa41a8a46d3f5565eefbff2de57d38d399f158__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/github-wravery__webview2-rs-dffa41a8a46d3f5565eefbff2de57d38d399f158.json",
+        "path": "LICENSE",
+        "git_blob": "de9a7e660e173136b351982a34f715af424ff812"
+      },
+      "notice": "legal/upstream/recovered/github-wravery__webview2-rs-dffa41a8a46d3f5565eefbff2de57d38d399f158__LICENSE",
+      "notice_sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+    },
+    {
+      "id": "github-wravery__webview2-rs-edc2caf886175ccaebe86078c9cfe1ae2a187328__LICENSE",
+      "url": "https://api.github.com/repos/wravery/webview2-rs/git/blobs/de9a7e660e173136b351982a34f715af424ff812",
+      "status": "retrieved",
+      "sha256": "f754ee538e2834d045e1f9fc6aa5be0273f1ee7402b273f9ee57b2208db61511",
+      "bytes": 1764,
+      "local": "experiments/license-audit/stage3b/github-wravery__webview2-rs-edc2caf886175ccaebe86078c9cfe1ae2a187328__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/github-wravery__webview2-rs-edc2caf886175ccaebe86078c9cfe1ae2a187328.json",
+        "path": "LICENSE",
+        "git_blob": "de9a7e660e173136b351982a34f715af424ff812"
+      },
+      "notice": "legal/upstream/recovered/github-wravery__webview2-rs-edc2caf886175ccaebe86078c9cfe1ae2a187328__LICENSE",
+      "notice_sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+    },
+    {
+      "id": "npm-tree-@napi-rs__wasm-runtime-1.2.2",
+      "url": "https://api.github.com/repos/napi-rs/napi-rs/git/trees/5b344c367eeed81d1917f7c4d8e65b1adc16de12?recursive=1",
+      "status": "retrieved",
+      "sha256": "aed59395472a9d81a799be746c4446411d187580400e6c4a8772b9552bbddc4b",
+      "bytes": 165174,
+      "local": "experiments/license-audit/stage3b/npm-tree-@napi-rs__wasm-runtime-1.2.2.json"
+    },
+    {
+      "id": "archive-@napi-rs__wasm-runtime-1.2.2",
+      "url": "https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.2.tgz",
+      "status": "retrieved",
+      "sha256": "28c612b332d3c99c2da85ea82debee1f37f6bc919820f4c08c34b476c0604297",
+      "bytes": 210625,
+      "local": "experiments/license-audit/stage3b/archive-@napi-rs__wasm-runtime-1.2.2.json"
+    },
+    {
+      "id": "archive-@oxlint__binding-win32-x64-msvc-1.91.0",
+      "url": "https://registry.npmjs.org/@oxlint/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.91.0.tgz",
+      "status": "retrieved",
+      "sha256": "fa52043a2544ba5b91a5f2cd4fb4d7544484ef2f0879e8876c7244c268ba8e40",
+      "bytes": 6045506,
+      "local": "experiments/license-audit/stage3b/archive-@oxlint__binding-win32-x64-msvc-1.91.0.json"
+    },
+    {
+      "id": "archive-@rolldown__binding-win32-x64-msvc-1.2.16",
+      "url": "https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.16.tgz",
+      "status": "retrieved",
+      "sha256": "57365e17933bf69965a180f0e06bd47bcac3dcc6ba5a902b39c448b2da378314",
+      "bytes": 8914933,
+      "local": "experiments/license-audit/stage3b/archive-@rolldown__binding-win32-x64-msvc-1.2.16.json"
+    },
+    {
+      "id": "archive-@tailwindcss__oxide-wasm32-wasi-4.3.4",
+      "url": "https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.3.4.tgz",
+      "status": "retrieved",
+      "sha256": "e454626b04b8b7255946f10a520b6c6e1c548406e4963a90b4a587205c0c951a",
+      "bytes": 1355996,
+      "local": "experiments/license-audit/stage3b/archive-@tailwindcss__oxide-wasm32-wasi-4.3.4.json"
+    },
+    {
+      "id": "archive-@tauri-apps__api-2.12.4",
+      "url": "https://registry.npmjs.org/@tauri-apps/api/-/api-2.12.4.tgz",
+      "status": "retrieved",
+      "sha256": "ea354409df3dcc473395111a5f6bf0031c8444cf827604515169aa3af5e9357a",
+      "bytes": 139611,
+      "local": "experiments/license-audit/stage3b/archive-@tauri-apps__api-2.12.4.json"
+    },
+    {
+      "id": "archive-@tauri-apps__cli-win32-x64-msvc-2.12.4",
+      "url": "https://registry.npmjs.org/@tauri-apps/cli-win32-x64-msvc/-/cli-win32-x64-msvc-2.12.4.tgz",
+      "status": "retrieved",
+      "sha256": "01c37f9e8e7b5dfeb69a9759f68fe4fd7a53a300c812bc104c3bd77c247e8bea",
+      "bytes": 7991602,
+      "local": "experiments/license-audit/stage3b/archive-@tauri-apps__cli-win32-x64-msvc-2.12.4.json"
+    },
+    {
+      "id": "npm-tree-@tauri-apps__plugin-dialog-2.8.4",
+      "url": "https://api.github.com/repos/tauri-apps/plugins-workspace/git/trees/128190689dbe59b59d344e01bf07b00862aa3791?recursive=1",
+      "status": "retrieved",
+      "sha256": "beddbf785d0a3954e707308d22d5311de87a86dade481e12ad9e08ecfa4c1bc6",
+      "bytes": 540726,
+      "local": "experiments/license-audit/stage3b/npm-tree-@tauri-apps__plugin-dialog-2.8.4.json"
+    },
+    {
+      "id": "archive-@tauri-apps__plugin-dialog-2.8.4",
+      "url": "https://registry.npmjs.org/@tauri-apps/plugin-dialog/-/plugin-dialog-2.8.4.tgz",
+      "status": "retrieved",
+      "sha256": "3eff363f336b8d62ee321bbf78b39988fd162e597c961f3ea1c00cf3de9ed791",
+      "bytes": 6802,
+      "local": "experiments/license-audit/stage3b/archive-@tauri-apps__plugin-dialog-2.8.4.json"
+    },
+    {
+      "id": "npm-tree-@tybys__wasm-util-0.10.3",
+      "url": "https://api.github.com/repos/toyobayashi/wasm-util/git/trees/efb17cc128a30fb16b58127738f09c8871a3f7d1?recursive=1",
+      "status": "retrieved",
+      "sha256": "45f575084f072680b70fb8243aef103269fc0fa64b0ff52d5cafe57311443847",
+      "bytes": 24360,
+      "local": "experiments/license-audit/stage3b/npm-tree-@tybys__wasm-util-0.10.3.json"
+    },
+    {
+      "id": "archive-@tybys__wasm-util-0.10.3",
+      "url": "https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.3.tgz",
+      "status": "retrieved",
+      "sha256": "509f6b8f8fca49118dbb2a7fd7726e5b6fe4b5a22344c9ce91eefdd8dcd34761",
+      "bytes": 139395,
+      "local": "experiments/license-audit/stage3b/archive-@tybys__wasm-util-0.10.3.json"
+    },
+    {
+      "id": "npm-tree-lightningcss-1.33.0",
+      "url": "https://api.github.com/repos/parcel-bundler/lightningcss/git/trees/1d680fa14e9a089c92dc0929f869d6757ae91c30?recursive=1",
+      "status": "retrieved",
+      "sha256": "be3fbf03b4d959fa7ff163c4a2193dcfd319be35b0ebb77bfc23ead1644b47ca",
+      "bytes": 62901,
+      "local": "experiments/license-audit/stage3b/npm-tree-lightningcss-1.33.0.json"
+    },
+    {
+      "id": "archive-lightningcss-1.33.0",
+      "url": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz",
+      "status": "retrieved",
+      "sha256": "d492f4278bb7234ceaa3c2638ef944e108ea17a23db7c6a2367c14fa725598cf",
+      "bytes": 87655,
+      "local": "experiments/license-audit/stage3b/archive-lightningcss-1.33.0.json"
+    },
+    {
+      "id": "npm-tree-lightningcss-win32-x64-msvc-1.33.0",
+      "url": "https://api.github.com/repos/parcel-bundler/lightningcss/git/trees/1d680fa14e9a089c92dc0929f869d6757ae91c30?recursive=1",
+      "status": "retrieved",
+      "sha256": "be3fbf03b4d959fa7ff163c4a2193dcfd319be35b0ebb77bfc23ead1644b47ca",
+      "bytes": 62901,
+      "local": "experiments/license-audit/stage3b/npm-tree-lightningcss-win32-x64-msvc-1.33.0.json"
+    },
+    {
+      "id": "archive-lightningcss-win32-x64-msvc-1.33.0",
+      "url": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz",
+      "status": "retrieved",
+      "sha256": "feb506faf3bdf4139826f521777c71b53c355f8eb6bcdd3220e16c5e131f1197",
+      "bytes": 3706526,
+      "local": "experiments/license-audit/stage3b/archive-lightningcss-win32-x64-msvc-1.33.0.json"
+    },
+    {
+      "id": "archive-lucide-react-1.67.0",
+      "url": "https://registry.npmjs.org/lucide-react/-/lucide-react-1.67.0.tgz",
+      "status": "retrieved",
+      "sha256": "9c1382c665b7dd6d45f822acef2a0fac31c504a43a43a41773e0bc70ae5fe85a",
+      "bytes": 3322940,
+      "local": "experiments/license-audit/stage3b/archive-lucide-react-1.67.0.json"
+    },
+    {
+      "id": "npm-tree-react-19.3.1",
+      "url": "https://api.github.com/repos/react/react/git/trees/61aa00df822d0eb76d0362eb8b6fdd3527693efe?recursive=1",
+      "status": "retrieved",
+      "sha256": "2028cb1d795e6930fea76698d9091fc95f49881718457892b43bf57a081da888",
+      "bytes": 2279827,
+      "local": "experiments/license-audit/stage3b/npm-tree-react-19.3.1.json"
+    },
+    {
+      "id": "archive-react-19.3.1",
+      "url": "https://registry.npmjs.org/react/-/react-19.3.1.tgz",
+      "status": "retrieved",
+      "sha256": "56936913918dcf1f7a6fe58784e79df54b18200a88655ce809cf5e9c4ef871aa",
+      "bytes": 26394,
+      "local": "experiments/license-audit/stage3b/archive-react-19.3.1.json"
+    },
+    {
+      "id": "npm-tree-react-dom-19.3.1",
+      "url": "https://api.github.com/repos/react/react/git/trees/61aa00df822d0eb76d0362eb8b6fdd3527693efe?recursive=1",
+      "status": "retrieved",
+      "sha256": "2028cb1d795e6930fea76698d9091fc95f49881718457892b43bf57a081da888",
+      "bytes": 2279827,
+      "local": "experiments/license-audit/stage3b/npm-tree-react-dom-19.3.1.json"
+    },
+    {
+      "id": "archive-react-dom-19.3.1",
+      "url": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.1.tgz",
+      "status": "retrieved",
+      "sha256": "8b49975821eec6311e00d2b3f4b8337923253c876517388a33f9839c61ab262e",
+      "bytes": 1410652,
+      "local": "experiments/license-audit/stage3b/archive-react-dom-19.3.1.json"
+    },
+    {
+      "id": "npm-tree-scheduler-0.28.0",
+      "url": "https://api.github.com/repos/react/react/git/trees/1d34f91dfde6bba84d08b683aaba164c7194dacb?recursive=1",
+      "status": "retrieved",
+      "sha256": "8b9f11fcf2267ea5056670f7b6a674e28435c77dda1130b496f8176ea15abff7",
+      "bytes": 2279825,
+      "local": "experiments/license-audit/stage3b/npm-tree-scheduler-0.28.0.json"
+    },
+    {
+      "id": "archive-scheduler-0.28.0",
+      "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz",
+      "status": "retrieved",
+      "sha256": "302995d590e3c0a11eeb40d1d0f299c1df1800135d599d85cdd5faeb614f32d6",
+      "bytes": 10011,
+      "local": "experiments/license-audit/stage3b/archive-scheduler-0.28.0.json"
+    },
+    {
+      "id": "7z2605-src.tar.xz",
+      "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-src.tar.xz",
+      "status": "unavailable",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    },
+    {
+      "id": "7z2605-x64.exe",
+      "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.exe",
+      "status": "unavailable",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    },
+    {
+      "id": "npm-tree-@napi-rs__wasm-runtime-1.2.2__LICENSE",
+      "url": "https://api.github.com/repos/napi-rs/napi-rs/git/blobs/7fe7e35eff46457f65a4e30a717fada632de9e03",
+      "status": "retrieved",
+      "sha256": "dcb559ea7f534bfa94c56d5975cfdd7bfd1ceae7b24a87b1032e0bf58e32f113",
+      "bytes": 3236,
+      "local": "experiments/license-audit/stage3b/npm-tree-@napi-rs__wasm-runtime-1.2.2__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-@napi-rs__wasm-runtime-1.2.2.json",
+        "path": "LICENSE",
+        "git_blob": "7fe7e35eff46457f65a4e30a717fada632de9e03"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-@napi-rs__wasm-runtime-1.2.2__LICENSE",
+      "notice_sha256": "3f1ce66533302df3a32edbfdfc0b78f0dd34659e4c1f5817162e5ea3c2297215"
+    },
+    {
+      "id": "npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE.spdx",
+      "url": "https://api.github.com/repos/tauri-apps/plugins-workspace/git/blobs/cdd0df5ad76e63d23a80834469609c1d8109ff2e",
+      "status": "retrieved",
+      "sha256": "c9707a7ebbe056832b29b3aaa9208104dc45fb332c8527f28cce2633a1952293",
+      "bytes": 1517,
+      "local": "experiments/license-audit/stage3b/npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE.spdx.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-@tauri-apps__plugin-dialog-2.8.4.json",
+        "path": "LICENSE.spdx",
+        "git_blob": "cdd0df5ad76e63d23a80834469609c1d8109ff2e"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE.spdx",
+      "notice_sha256": "eb8a6c84630461b352badcab1dbe5d0168c56d377358b2b8c86b51003272d5ef"
+    },
+    {
+      "id": "npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE_APACHE-2.0",
+      "url": "https://api.github.com/repos/tauri-apps/plugins-workspace/git/blobs/4947287f7b5ccb5d1e8b7b2d3aa5d89f322c160d",
+      "status": "retrieved",
+      "sha256": "dd93033653d16d6c83d119774cf1a9bce1734cd0e6287c469e8de958a209ab0a",
+      "bytes": 14313,
+      "local": "experiments/license-audit/stage3b/npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE_APACHE-2.0.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-@tauri-apps__plugin-dialog-2.8.4.json",
+        "path": "LICENSE_APACHE-2.0",
+        "git_blob": "4947287f7b5ccb5d1e8b7b2d3aa5d89f322c160d"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE_APACHE-2.0",
+      "notice_sha256": "0cec06e0e55fbc3dc5cee4fca9b607f66cb8f4e4dbcf3b3c013594dd156732e9"
+    },
+    {
+      "id": "npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE_MIT",
+      "url": "https://api.github.com/repos/tauri-apps/plugins-workspace/git/blobs/4d75472566358fac0eed03625b37d1837a33dfe2",
+      "status": "retrieved",
+      "sha256": "d9eacefb885ddd98eafda6cc246a835a1077c9a82d592998b43a4d9af6e1c55a",
+      "bytes": 1796,
+      "local": "experiments/license-audit/stage3b/npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE_MIT.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-@tauri-apps__plugin-dialog-2.8.4.json",
+        "path": "LICENSE_MIT",
+        "git_blob": "4d75472566358fac0eed03625b37d1837a33dfe2"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-@tauri-apps__plugin-dialog-2.8.4__LICENSE_MIT",
+      "notice_sha256": "89ff9689dcf9dd53968785d05a26f7898bb169dbfcada8d032b3e68cf0d55607"
+    },
+    {
+      "id": "npm-tree-lightningcss-1.33.0__LICENSE",
+      "url": "https://api.github.com/repos/parcel-bundler/lightningcss/git/blobs/89fe5b2004873b5f5237874446f65df5c02f9dc2",
+      "status": "retrieved",
+      "sha256": "610fde7c6290061ad021d2fdd4d28e375079f39f469defa2b98938307dc4eac8",
+      "bytes": 21854,
+      "local": "experiments/license-audit/stage3b/npm-tree-lightningcss-1.33.0__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-lightningcss-1.33.0.json",
+        "path": "LICENSE",
+        "git_blob": "89fe5b2004873b5f5237874446f65df5c02f9dc2"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-lightningcss-1.33.0__LICENSE",
+      "notice_sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e"
+    },
+    {
+      "id": "npm-tree-lightningcss-win32-x64-msvc-1.33.0__LICENSE",
+      "url": "https://api.github.com/repos/parcel-bundler/lightningcss/git/blobs/89fe5b2004873b5f5237874446f65df5c02f9dc2",
+      "status": "retrieved",
+      "sha256": "610fde7c6290061ad021d2fdd4d28e375079f39f469defa2b98938307dc4eac8",
+      "bytes": 21854,
+      "local": "experiments/license-audit/stage3b/npm-tree-lightningcss-win32-x64-msvc-1.33.0__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-lightningcss-win32-x64-msvc-1.33.0.json",
+        "path": "LICENSE",
+        "git_blob": "89fe5b2004873b5f5237874446f65df5c02f9dc2"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-lightningcss-win32-x64-msvc-1.33.0__LICENSE",
+      "notice_sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e"
+    },
+    {
+      "id": "npm-tree-react-19.3.1__LICENSE",
+      "url": "https://api.github.com/repos/react/react/git/blobs/b93be90515ccd0b9daedaa589e42bf5929693f1f",
+      "status": "retrieved",
+      "sha256": "3358ca3d4b00c23f96249176461879ef409a3d12c2d48d63ce01c8cd1ddedcfe",
+      "bytes": 1786,
+      "local": "experiments/license-audit/stage3b/npm-tree-react-19.3.1__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-react-19.3.1.json",
+        "path": "LICENSE",
+        "git_blob": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-react-19.3.1__LICENSE",
+      "notice_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "id": "npm-tree-react-dom-19.3.1__LICENSE",
+      "url": "https://api.github.com/repos/react/react/git/blobs/b93be90515ccd0b9daedaa589e42bf5929693f1f",
+      "status": "retrieved",
+      "sha256": "3358ca3d4b00c23f96249176461879ef409a3d12c2d48d63ce01c8cd1ddedcfe",
+      "bytes": 1786,
+      "local": "experiments/license-audit/stage3b/npm-tree-react-dom-19.3.1__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-react-dom-19.3.1.json",
+        "path": "LICENSE",
+        "git_blob": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-react-dom-19.3.1__LICENSE",
+      "notice_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "id": "npm-tree-scheduler-0.28.0__LICENSE",
+      "url": "https://api.github.com/repos/react/react/git/blobs/b93be90515ccd0b9daedaa589e42bf5929693f1f",
+      "status": "retrieved",
+      "sha256": "3358ca3d4b00c23f96249176461879ef409a3d12c2d48d63ce01c8cd1ddedcfe",
+      "bytes": 1786,
+      "local": "experiments/license-audit/stage3b/npm-tree-scheduler-0.28.0__LICENSE.json",
+      "blob_context": {
+        "tree_file": "experiments/license-audit/stage3b/npm-tree-scheduler-0.28.0.json",
+        "path": "LICENSE",
+        "git_blob": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+      },
+      "notice": "legal/upstream/recovered/npm-tree-scheduler-0.28.0__LICENSE",
+      "notice_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "id": "provenance-npm-@tauri-apps__api-2.12.4",
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tauri-apps%2fapi@2.12.4",
+      "status": "retrieved",
+      "sha256": "0c90ff0ed56f258a16e6d12b962aa98d3c8901c9057a23b13228a5bf7600de54",
+      "bytes": 16715,
+      "local": "experiments/license-audit/stage3b/provenance-npm-@tauri-apps__api-2.12.4.json"
+    },
+    {
+      "id": "provenance-npm-lucide-react-1.67.0",
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/lucide-react@1.67.0",
+      "status": "retrieved",
+      "sha256": "d1f275397226bca97f51f60f1c4cc46799035ed4d943a25b3fae59015c7a4182",
+      "bytes": 14941,
+      "local": "experiments/license-audit/stage3b/provenance-npm-lucide-react-1.67.0.json"
+    },
+    {
+      "id": "sdk-LICENSE.txt",
+      "status": "retrieved",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.3800.47/microsoft.web.webview2.1.0.3800.47.nupkg",
+      "archive_sha256": "56c9f26bdd07916a2d1949fb58a5c7e434dfa1173577dca879206050c4e718db",
+      "notice": "legal/upstream/recovered/microsoft-webview2-1.0.3800.47/LICENSE.txt",
+      "notice_sha256": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55"
+    },
+    {
+      "id": "sdk-NOTICE.txt",
+      "status": "retrieved",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.3800.47/microsoft.web.webview2.1.0.3800.47.nupkg",
+      "archive_sha256": "56c9f26bdd07916a2d1949fb58a5c7e434dfa1173577dca879206050c4e718db",
+      "notice": "legal/upstream/recovered/microsoft-webview2-1.0.3800.47/NOTICE.txt",
+      "notice_sha256": "106423785c5b7eba0a8e61d1837f2132e9c828e20ad530f565d981c1df60dd90"
+    },
+    {
+      "id": "sdk-Microsoft.Web.WebView2.nuspec",
+      "status": "retrieved",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.web.webview2/1.0.3800.47/microsoft.web.webview2.1.0.3800.47.nupkg",
+      "archive_sha256": "56c9f26bdd07916a2d1949fb58a5c7e434dfa1173577dca879206050c4e718db",
+      "notice": "legal/upstream/recovered/microsoft-webview2-1.0.3800.47/Microsoft.Web.WebView2.nuspec",
+      "notice_sha256": "31e49576d10d4a5abf4318850e6d3fde457800e6228610a5854a4251af56b5ff"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Krish Agarwal
+[target.x86_64-pc-windows-msvc]
+# Both the application and Explorer DLL must run without a VC redist installer.
+rustflags = ["-C", "target-feature=+crt-static"]
