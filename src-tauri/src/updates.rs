@@ -293,7 +293,6 @@ mod tests {
             )
             .build(context)
             .unwrap();
-        *state.pending.lock().unwrap() = None;
         let update=app.updater_builder().target("windows-x86_64").build().unwrap().restore_update(serde_json::json!({"version":version,"platforms":{"windows-x86_64":{"url":format!("https://github.com/krish-agarwal-11/PACKIT/releases/download/v{version}/PACKIT_{version}_x64-setup.exe"),"signature":signature.trim()}}})).unwrap().unwrap();
         update
             .verify(&data)
