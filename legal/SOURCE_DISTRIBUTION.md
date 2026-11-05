@@ -29,3 +29,7 @@ The private installer uses the same source-candidate workflow with its actual bu
 ## Stage 5 repository and updater addition
 
 The actual repository is https://github.com/krish-agarwal-11/PACKIT and is currently private. No public release/source download endpoint is asserted. Official updater dependency additions and newly selected runtime sources are preserved in updater-dependency-delta.json; prior legal-review decisions are unchanged. The public verification key is source material; private signing keys/passwords are never source-bundle inputs. Exact notices/artwork bytes are preserved by the repository .gitattributes. Source archives for future releases must match the signed installer and build record, not an arbitrary branch snapshot.
+
+## Stage 7 release candidate
+
+Version 1.0.0 is a local candidate, not public-distribution approval. The same deterministic workflow accepts an ignored release-staging/ output and includes release instructions. The paired build record and SHA-256 inventory are staged beside the installer. Source reconstruction, recipient-facing delivery, owner updater signing and the two existing external interpretation questions remain pending. No test-only Stage 6 HTTP settings or binaries are included. See release/OWNER_CHECKLIST.md.

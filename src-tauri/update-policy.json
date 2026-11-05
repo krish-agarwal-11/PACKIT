@@ -1,4 +1,4 @@
 {
-  "feedReady": false,
-  "reason": "Repository is private; no anonymously accessible signed update feed has been validated."
+  "feedReady": true,
+  "reason": "Production HTTPS feed enabled for v1.0.0. Until the approved stable release and signed assets are publicly accessible, checks report unavailable; no credentials are embedded."
 }

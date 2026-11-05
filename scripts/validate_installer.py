@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-3.0-only
 # SPDX-FileCopyrightText: 2026 Krish Agarwal
 """Validate private NSIS build inputs without installing or changing registrations."""
-import hashlib,json,re,struct,sys
+import hashlib,json,re,struct,sys,tomllib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
@@ -23,11 +23,14 @@ def pe(path):
    name=at(struct.unpack_from('<I',record,12)[0]);imports.append(data[name:data.index(b'\0',name)].decode('ascii'))
  return {'machine':hex(machine),'imports':imports,'sha256':sha(path),'bytes':len(data)}
 def main():
- config=load(ROOT/'src-tauri/tauri.conf.json');version=config['version'];assert version==load(ROOT/'package.json')['version']==load(ROOT/'package-lock.json')['version']=='0.1.0'
+ config=load(ROOT/'src-tauri/tauri.conf.json');version=config['version'];assert version==load(ROOT/'package.json')['version']==load(ROOT/'package-lock.json')['version']=='1.0.0'
+ for path in ['src-tauri/Cargo.toml','windows-shell/Cargo.toml']:assert tomllib.loads((ROOT/path).read_text())['package']['version']==version
+ for path,name in [('src-tauri/Cargo.lock','packit'),('windows-shell/Cargo.lock','packit-shell')]:assert next(p['version'] for p in tomllib.loads((ROOT/path).read_text())['package'] if p['name']==name)==version
+ updater=config['plugins']['updater'];assert updater['endpoints']==['https://github.com/krish-agarwal-11/PACKIT/releases/latest/download/latest.json'];assert not any(updater.get(k,False) for k in ['dangerousInsecureTransportProtocol','dangerousAcceptInvalidCerts','dangerousAcceptInvalidHostnames'])
  platform=load(ROOT/'src-tauri/tauri.windows.conf.json');assert 'resources' not in platform['bundle'],'Platform override must not replace the explicit legal/resource map'
  b=config['bundle'];assert config['identifier']=='org.packit.desktop' and b['publisher']=='Krish Agarwal' and b['targets']==['nsis'];assert b['windows']['nsis']['installMode']=='currentUser';assert not b['windows']['allowDowngrades'] and b['windows']['webviewInstallMode']=={'type':'skip'}
  assert config['plugins']['updater']['requireSignedVersion'] is True and not b.get('createUpdaterArtifacts',False)
- assert load(ROOT/'src-tauri/update-policy.json')['feedReady'] is False
+ assert load(ROOT/'src-tauri/update-policy.json')['feedReady'] is True
  assert config['plugins']['updater']['pubkey']==(ROOT/'src-tauri/updater-public-key.pub').read_text().strip()
  imports={};manifest=load(ROOT/'src-tauri/vendor/shell/manifest.json')
  for name,path in [('app',ROOT/'src-tauri/target/x86_64-pc-windows-msvc/release/packit.exe'),('shell',ROOT/'src-tauri/vendor/shell'/manifest['filename']),('7z.exe',ROOT/'src-tauri/vendor/7zip/7z.exe'),('7z.dll',ROOT/'src-tauri/vendor/7zip/7z.dll')]:

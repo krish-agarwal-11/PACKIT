@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 // SPDX-FileCopyrightText: 2026 Krish Agarwal
-//! Official signature verification behind main-window, private-feed and operation gates.
+//! Official signature verification behind main-window, production-policy and operation gates.
 use std::{
     sync::{
         atomic::{AtomicBool, Ordering},
@@ -60,7 +60,8 @@ pub async fn check_updates(
     if !enabled() {
         return Ok(Reply{state:"disabled",version:None,message:"Updates are not enabled yet: the repository is private and an accessible signed release feed has not been validated.".into()});
     }
-    let update=app.updater_builder().timeout(Duration::from_secs(15)).build().map_err(|_|"Could not initialize secure updates.")?.check().await.map_err(|_|"Could not check for updates. You may be offline, or a release is unavailable. Try again later or use the manual installer.")?;
+    *state.pending.lock().unwrap() = None;
+    let update=app.updater_builder().timeout(Duration::from_secs(15)).build().map_err(|_|"Could not initialize secure updates.")?.check().await.map_err(|_|"Could not check for updates. The release or signed manifest may not be published or accessible yet, or you may be offline. Nothing was installed. Try again later or use the manual installer.")?;
     match update {
         Some(update) => {
             if update.download_url.scheme() != "https"
@@ -226,8 +227,8 @@ pub fn open_update_fallback(window: tauri::Window) -> Result<(), String> {
 mod tests {
     use super::*;
     #[test]
-    fn private_feed_is_disabled_without_network() {
-        assert!(!enabled());
+    fn production_feed_is_enabled_without_network() {
+        assert!(enabled());
     }
     #[test]
     fn concurrent_update_actions_are_rejected() {
@@ -266,5 +267,39 @@ mod tests {
         let update=updater.restore_update(serde_json::json!({"version":"99.0.0","url":"https://github.com/krish-agarwal-11/PACKIT/releases/download/v99.0.0/PACKIT.exe","signature":"invalid"})).unwrap().unwrap();
         assert!(update.verify(b"invalid unsigned installer").is_err());
         assert!(update.install(b"invalid unsigned installer").is_err());
+    }
+    #[test]
+    #[ignore = "Owner-provided public signature required; verifies only, never installs"]
+    fn verify_owner_release_signature() {
+        let root = std::path::Path::new(env!("CARGO_MANIFEST_DIR"))
+            .parent()
+            .unwrap();
+        let config: serde_json::Value =
+            serde_json::from_str(include_str!("../tauri.conf.json")).unwrap();
+        let version = config["version"].as_str().unwrap();
+        let folder = root.join("release-staging").join(version);
+        let signature =
+            std::fs::read_to_string(folder.join(format!("PACKIT_{version}_x64-setup.exe.sig")))
+                .expect("Owner must create the public detached .sig first");
+        let data = std::fs::read(folder.join(format!("PACKIT_{version}_x64-setup.exe"))).unwrap();
+        let mut context = tauri::test::mock_context(tauri::test::noop_assets());
+        context.package_info_mut().version = "0.0.0".parse().unwrap();
+        context.config_mut().plugins = serde_json::from_value(config["plugins"].clone()).unwrap();
+        let app = tauri::test::mock_builder()
+            .plugin(
+                tauri_plugin_updater::Builder::new()
+                    .pubkey(include_str!("../updater-public-key.pub").trim())
+                    .build(),
+            )
+            .build(context)
+            .unwrap();
+        *state.pending.lock().unwrap() = None;
+        let update=app.updater_builder().target("windows-x86_64").build().unwrap().restore_update(serde_json::json!({"version":version,"platforms":{"windows-x86_64":{"url":format!("https://github.com/krish-agarwal-11/PACKIT/releases/download/v{version}/PACKIT_{version}_x64-setup.exe"),"signature":signature.trim()}}})).unwrap().unwrap();
+        update
+            .verify(&data)
+            .expect("Official updater rejected the exact installer/signature/signed-version pair");
+        println!(
+            "Verified owner signature and version; no network request or installation performed"
+        );
     }
 }

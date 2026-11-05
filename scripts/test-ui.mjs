@@ -56,6 +56,7 @@ try {
     "src-tauri/tauri.conf.json",
     "utf8",
   );
+  const requireReadPolicy = await readFile("src-tauri/update-policy.json", "utf8");
   const home = render(React.createElement(App));
   check(
     "Brand is one accessible native Home button, without milestone UI",
@@ -82,10 +83,21 @@ try {
     assert.match(about, />Third-party notices</);
     assert.match(about, /Local processing/);
   });
-  check("Updater stays private-feed gated and popup-safe", () => {
+  check("Updater production feed is enabled, HTTPS-only and popup-safe", () => {
     const metadata=JSON.parse(requireReadMetadata);
     assert.equal(metadata.plugins.updater.requireSignedVersion,true);
+    assert.equal(JSON.parse(requireReadPolicy).feedReady,true);
     assert.match(metadata.plugins.updater.endpoints[0], /^https:\/\/github\.com\/krish-agarwal-11\/PACKIT\/releases\//);
+  });
+  const { UpdateDialog } = await server.ssrLoadModule("/src/components/UpdateManager.tsx");
+  const updaterProps={reply:{state:"available",version:"1.0.1",message:"test metadata"},working:false,progress:null,onClose:()=>{},onInstall:()=>{},onRetry:()=>{},onFallback:()=>{}};
+  check("Verification failure replaces available heading and removes Update Now",()=>{
+    const html=render(React.createElement(UpdateDialog,{...updaterProps,failure:"verification",message:"Nothing was installed."}));
+    assert.match(html,/Update verification failed/);assert.match(html,/Nothing was installed/);assert.match(html,/>Retry</);assert.match(html,/>Close</);assert.match(html,/role="alert"/);assert.doesNotMatch(html,/Update Now|1.0.1 is available/);
+  });
+  check("Offline checks never render an up-to-date or available state",()=>{
+    const html=render(React.createElement(UpdateDialog,{...updaterProps,reply:null,failure:"check",message:"The feed is unavailable or offline."}));
+    assert.match(html,/Could not check for updates/);assert.match(html,/unavailable or offline/);assert.match(html,/>Retry</);assert.doesNotMatch(html,/Update Now|latest available|up to date|is available/);
   });
   const archive = {
     name: "日本.zip",

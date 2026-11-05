@@ -1,12 +1,12 @@
 {
   "target": "x86_64-pc-windows-msvc",
-  "app_version": "0.1.0",
-  "scope": "configured Windows build; final installer not produced or audited",
+  "app_version": "1.0.0",
+  "scope": "Windows x64 1.0.0 local release candidate; public legal clearance not asserted",
   "license_identifier": "GPL-3.0-only",
   "inputs": {
-    "src-tauri/Cargo.lock": "4580b682e6b547eb422cd749d3fe8c57c07344f8201ec21be93dfaa35a8f7e49",
-    "windows-shell/Cargo.lock": "7458f1e51f70bce425a36c27e1b07f45d3ec3718c9a35df5acadc8664f947f53",
-    "package-lock.json": "6c4d88c8114ca0b8fea050e49a0800c0618bc1a0f9fa155463565fa361e2e79f",
+    "src-tauri/Cargo.lock": "8482583d3c07309834792d7b13dc69dde05538a521bbcfb49c62ed42b2b23fd1",
+    "windows-shell/Cargo.lock": "9bfa6ffb4fbc52442b9107bded4792804cd8eb3774ed2b9358a6b762ed62b312",
+    "package-lock.json": "2292e59fbf2e069461af502c96fc0fcffa2f53e5847f6d237f40d0bdcb34e66b",
     ".cargo/config.toml": "4e4d02e23e0d992f1fb67680ae26ef491c57180ebb1b8a81f5fc028b8942b3be",
     "src-tauri/tauri.windows.conf.json": "18cc75ddb07560b029e78423ffdb9606f1d57b7c8d6cee870c2a0cfe4bce715d"
   },
@@ -26679,8 +26679,8 @@
       "delivery": "configured bundle resource"
     },
     {
-      "file": "src-tauri/vendor/shell/packit_shell_v4_9932fa6b1c28.dll",
-      "sha256": "9932fa6b1c280ea4502525b589f5cebe6fd47a25564a50cf9ed8ee6092e2cdaa",
+      "file": "src-tauri/vendor/shell/packit_shell_v4_8fc449088304.dll",
+      "sha256": "8fc44908830481838d7ab069661f3c5fb6f8f9438dc5e77506cf8e6f0ea09b54",
       "bytes": 526848,
       "delivery": "private NSIS hook-owned resource; release static CRT shell build"
     }
@@ -27162,10 +27162,10 @@
     }
   ],
   "npm_root_version_drift": {
-    "package": "0.1.0",
-    "lock": "0.1.0",
-    "lock_root": "0.1.0",
-    "resolution": "aligned stale root lock metadata to existing application version; no dependency/app version promotion"
+    "package": "1.0.0",
+    "lock": "1.0.0",
+    "lock_root": "1.0.0",
+    "resolution": "Stage 7 release-candidate metadata aligned to 1.0.0; dependency versions unchanged"
   },
   "stage3b_resolutions": "legal/RELEASE_REVIEW.md",
   "stage4_build_note": "No dependency versions changed. Added existing windows-sys ToolHelp API feature, static CRT configuration and installer metadata. Native 7-Zip bytes unchanged."

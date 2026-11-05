@@ -13,7 +13,7 @@ def safe(name):
  return p.as_posix()
 def main():
  parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output',default='experiments/license-audit/source-candidate.tar.gz');parser.add_argument('--build-record',help='Optional final build record, checked but not legal approval');args=parser.parse_args()
- output=(ROOT/args.output).resolve();assert output.is_relative_to(SCRATCH.resolve()),'Use the ignored internal audit directory; distribution is not cleared'
+ output=(ROOT/args.output).resolve();assert any(output.is_relative_to(base.resolve()) for base in [SCRATCH,ROOT/'release-staging']),'Use an ignored audit/release-staging directory; distribution is not cleared'
  inv=load(ROOT/'legal/inventory.json');assert all(sha((ROOT/name).read_bytes())==digest for name,digest in inv['inputs'].items()),'Inventory stale: recheck changed locks/manifests before packaging';exclusions=load(ROOT/'legal/distribution-exclusions.json');excluded={e['file'] for e in exclusions['local_only_fixtures']+exclusions['removed_assets']};files={};origins={}
  def add(name,data,origin):
   name=safe(name)
@@ -22,7 +22,7 @@ def main():
  def addfile(path,name=None):
   if path.is_symlink() or path.stat().st_file_attributes & getattr(stat,'FILE_ATTRIBUTE_REPARSE_POINT',0):raise ValueError('Reparse point in source: '+str(path))
   add(name or path.relative_to(ROOT).as_posix(),path.read_bytes(),'workspace')
- prefixes=['src','scripts','legal','branding','public','docs','src-tauri','windows-shell']
+ prefixes=['src','scripts','legal','branding','public','docs','release','src-tauri','windows-shell']
  for prefix in prefixes:
   for base,dirs,names in os.walk(ROOT/prefix):
    dirs[:]=sorted(d for d in dirs if d not in ['target','gen','node_modules','__pycache__','.git'])
